@@ -2,6 +2,7 @@
 import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
+import socialIcons from "@assets/socialIcons";
 
 export interface Props {
   activeNav?: "posts" | "github" | "about" | "search";
@@ -56,18 +57,27 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Paper
-            </a>
-          </li>
-          <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
           </li>
           <li>
-            <a href="https://github.com/zlxlty/RAdversarial" class={activeNav === "github" ? "active" : ""}>
-              Github
+            <!-- TODO Chaneg href -->
+            <a
+              href="/posts/"
+              class={activeNav === "posts" ? "active" : ""}
+              target="_blank"
+            >
+              Paper
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/zlxlty/RAdversarial"
+              class={activeNav === "github" ? "active" : ""}
+              target="_blank"
+            >
+              <Fragment set:html={socialIcons["Github"]} />
             </a>
           </li>
           {
