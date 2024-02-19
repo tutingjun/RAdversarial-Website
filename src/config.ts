@@ -1,12 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // TODO: replace this with your deployed domain
+  website: "http://comps.petertu.sites.carleton.edu", // TODO: replace this with your deployed domain
   author:
     "Sky Lu, Yuxin Lin, Jonas Bartels, Tingjun Tu, Alice Cutter, Sriya Konda",
   desc: "Website for Carleton College WI24 CS adversarial attacks comps.",
   title: "RAdversarial",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

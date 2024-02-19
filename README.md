@@ -11,6 +11,10 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
 > For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
 
+## Static Build
+
+Add `.htaccess` file to the dist folder
+
 ## 👨🏻‍💻 Running Locally
 
 **Important**
