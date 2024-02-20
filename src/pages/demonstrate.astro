@@ -13,8 +13,8 @@ import ShowImageDetails from "@components/ShowImages";
 <Layout title={`Demonstation | ${SITE.title}`}>
   <Header activeNav="demonstrate" />
   <Main pageTitle="Demonstation" pageDesc="Demonstation of each attack method.">
-    <Dropdown client:load />
-    <ShowImageDetails client:idle />
+    <Dropdown client:only="react" />
+    <ShowImageDetails client:only="react" />
   </Main>
   <Footer />
 </Layout>

@@ -37,4 +37,13 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
+  outDir: "./public-html",
+  build: {
+    // Example: Generate `page.html` instead of `page/index.html` during build.
+    inlineStylesheets: `always`,
+  },
+  // trailingSlash: "never",
+  // experimental: {
+  //   globalRoutePriority: true,
+  // },
 });
