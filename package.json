@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && cp .htaccess public-html/.htaccess && jampack ./public-html",
+    "build": "astro build && cp .htaccess dist/adversarial/.htaccess && jampack ./dist/adversarial",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -23,6 +23,7 @@
     "@resvg/resvg-js": "^2.6.0",
     "@types/react-dom": "^18.2.19",
     "astro": "^4.2.1",
+    "astro-relative-links": "^0.3.7",
     "framer-motion": "^11.0.5",
     "fuse.js": "^7.0.0",
     "github-slugger": "^2.0.0",

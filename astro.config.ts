@@ -1,15 +1,18 @@
 import { defineConfig } from "astro/config";
+import relativeLinks from "astro-relative-links";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
+import type { AstroIntegration } from "astro";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   integrations: [
+    relativeLinks() as AstroIntegration,
     tailwind({
       applyBaseStyles: false,
     }),
@@ -37,13 +40,11 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
-  outDir: "./public-html",
+  outDir: "./dist/adversarial",
   build: {
     // Example: Generate `page.html` instead of `page/index.html` during build.
     inlineStylesheets: `always`,
+    // assetsPrefix: "..",
   },
-  // trailingSlash: "never",
-  // experimental: {
-  //   globalRoutePriority: true,
-  // },
+  trailingSlash: "always",
 });

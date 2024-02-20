@@ -6,7 +6,7 @@ export type ModelResult = {
 };
 
 export const getImagePath = (imageName: string, method: string) => {
-  return `/perturbed_images/${method}/perturbed_${imageName}.png`;
+  return `../perturbed_images/${method}/perturbed_${imageName}.png`;
 };
 
 export const getPerturbationResult = (imageName: string, method: string) => {
