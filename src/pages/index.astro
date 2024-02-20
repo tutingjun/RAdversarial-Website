@@ -18,7 +18,7 @@ const { Content } = await paper[0].render();
   <Header />
   <main id="main-content">
     <section id="hero">
-      <div class="title">
+      <div>
         <h1>Panda or Paintbrush?</h1>
         <h2>An Exploration of Adversarial Attacks on Image Classifiers</h2>
       </div>
@@ -51,56 +51,42 @@ const { Content } = await paper[0].render();
 
     <Hr />
 
-    <main id="main-content">
-      <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
-        <Content />
-      </article>
+    <article
+      id="article"
+      role="article"
+      class="prose mx-auto mt-8 max-w-3xl px-5"
+    >
+      <Content />
+    </article>
 
-      <div
-        class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
+    <div
+      class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
+    >
+      <button
+        id="back-to-top"
+        class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
       >
-        <button
-          id="back-to-top"
-          class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
-            <path
-              d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-            ></path>
-          </svg>
-          <span>Back to Top</span>
-        </button>
-      </div>
-    </main>
+        <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
+          <path
+            d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+          ></path>
+        </svg>
+        <span>Back to Top</span>
+      </button>
+    </div>
   </main>
 
   <Footer />
 </Layout>
 
 <style>
-  /* ===== Paper Content ===== */
-  main {
-    @apply mx-auto w-full max-w-3xl px-4 pb-6;
-  }
-  .post-title {
-    @apply text-2xl font-semibold text-skin-accent;
-  }
   /* ===== Hero Section ===== */
   #hero {
     @apply pb-6 pt-8;
   }
-
-  #hero .title {
-    @apply sm:mt-4 sm:mb-8;
-  }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-3 sm:text-5xl;
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
   }
-
-  #hero h2 {
-    @apply my-4 inline-block text-xl font-bold sm:my-3 sm:text-3xl;
-  }
-
   #hero .rss-link {
     @apply mb-6;
   }
