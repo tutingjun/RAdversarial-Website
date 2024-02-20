@@ -1,0 +1,54 @@
+[
+  {
+    "input_name": "milo.jpg",
+    "true_label_idx": 281,
+    "original_true_class_probability": 0.5022376775741577,
+    "true_class_probability": 0.4225919246673584,
+    "topk_indices": [282, 281, 285],
+    "topk_labels": ["tiger cat", "tabby, tabby cat", "Egyptian cat"],
+    "topk_probabilities": [
+      0.45073094964027405, 0.4225919246673584, 0.04483538866043091
+    ],
+    "num_iteration": 1
+  },
+  {
+    "input_name": "ox.jpg",
+    "true_label_idx": 345,
+    "original_true_class_probability": 0.9273841381072998,
+    "true_class_probability": 0.3631764352321625,
+    "topk_indices": [345, 173, 690],
+    "topk_labels": ["ox", "Ibizan hound, Ibizan Podenco", "oxcart"],
+    "topk_probabilities": [
+      0.3631764352321625, 0.18536081910133362, 0.06182854622602463
+    ],
+    "num_iteration": 149
+  },
+  {
+    "input_name": "pig.jpg",
+    "true_label_idx": 208,
+    "original_true_class_probability": 1.0629947610141244e-5,
+    "true_class_probability": 1.255000097444281e-5,
+    "topk_indices": [341, 342, 363],
+    "topk_labels": [
+      "hog, pig, grunter, squealer, Sus scrofa",
+      "wild boar, boar, Sus scrofa",
+      "armadillo"
+    ],
+    "topk_probabilities": [
+      0.9699485898017883, 0.010078426450490952, 0.00038526125717908144
+    ],
+    "num_iteration": 0
+  },
+  {
+    "input_name": "puppy.jpg",
+    "true_label_idx": 341,
+    "original_true_class_probability": 7.574605842819437e-5,
+    "true_class_probability": 8.562629955122247e-5,
+    "topk_indices": [208, 207, 222],
+    "topk_labels": ["Labrador retriever", "golden retriever", "kuvasz"],
+    "topk_probabilities": [
+      0.6951432228088379, 0.1468248814344406, 0.02547840029001236
+    ],
+    "num_iteration": 0
+  }
+]

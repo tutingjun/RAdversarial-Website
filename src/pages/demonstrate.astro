@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Main from "@layouts/Main.astro";
+import { SITE } from "@config";
+
+import Dropdown from "@components/Dropdown";
+import ShowImageDetails from "@components/ShowImages";
+---
+
+<Layout title={`Demonstation | ${SITE.title}`}>
+  <Header activeNav="demonstrate" />
+  <Main pageTitle="Demonstation" pageDesc="Demonstation of each attack method.">
+    <Dropdown client:load />
+    <ShowImageDetails client:idle />
+  </Main>
+  <Footer />
+</Layout>

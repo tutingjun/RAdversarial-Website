@@ -1,0 +1,54 @@
+[
+  {
+    "input_name": "milo.jpg",
+    "true_label_idx": 281,
+    "num_iteration": "Not Applicable",
+    "original_true_class_probability": 0.5022376775741577,
+    "true_class_probability": 1.5267416508552706e-13,
+    "topk_indices": [285, 778, 824],
+    "topk_labels": ["Egyptian cat", "scale, weighing machine", "stole"],
+    "topk_probabilities": [
+      0.9999971389770508, 2.4541939183109207e-6, 1.2869435295215226e-7
+    ]
+  },
+  {
+    "input_name": "ox.jpg",
+    "true_label_idx": 345,
+    "num_iteration": "Not Applicable",
+    "original_true_class_probability": 0.9273841381072998,
+    "true_class_probability": 3.546091198458612e-9,
+    "topk_indices": [168, 161, 171],
+    "topk_labels": ["redbone", "basset, basset hound", "Italian greyhound"],
+    "topk_probabilities": [
+      0.18708916008472443, 0.15838609635829926, 0.14287534356117249
+    ]
+  },
+  {
+    "input_name": "puppy.jpg",
+    "true_label_idx": 208,
+    "num_iteration": "Not Applicable",
+    "original_true_class_probability": 0.7357765436172485,
+    "true_class_probability": 2.4401161646814273e-11,
+    "topk_indices": [267, 747, 898],
+    "topk_labels": [
+      "standard poodle",
+      "punching bag, punch bag, punching ball, punchball",
+      "water bottle"
+    ],
+    "topk_probabilities": [
+      0.9996525049209595, 9.443709132028744e-5, 5.0313065003138036e-5
+    ]
+  },
+  {
+    "input_name": "pig.jpg",
+    "true_label_idx": 341,
+    "num_iteration": "Not Applicable",
+    "original_true_class_probability": 0.9741244912147522,
+    "true_class_probability": 7.725378026179897e-8,
+    "topk_indices": [99, 129, 134],
+    "topk_labels": ["goose", "spoonbill", "crane"],
+    "topk_probabilities": [
+      0.7099324464797974, 0.07664407789707184, 0.036447085440158844
+    ]
+  }
+]
