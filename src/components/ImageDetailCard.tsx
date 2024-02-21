@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { Card, CardBody, Image, CardHeader } from "@nextui-org/react";
+import { Card, CardBody, Image, CardHeader, Progress } from "@nextui-org/react";
 import type { ModelResult } from "@utils/getPerturbation";
 
 interface ImageProps {
@@ -32,10 +32,23 @@ const ImageCard: React.FC<ImageProps> = ({ path, prediction, method_name }) => {
                 className="flex flex-row justify-between py-2 pr-3"
                 key={ele.label}
               >
-                <p className="text-default-600 max-w-50 text-wrap text-base">
-                  {ele.label}
-                </p>
-                <p className="text-default-600 text-base">{ele.prob}</p>
+                <Progress
+                  classNames={{
+                    base: "max-w-md flex-col-reverse",
+                    label: "w-45 text-wrap text-sm text-default-600 pr-1",
+                    value: "ext-sm text-default-600 pl-1",
+                  }}
+                  color="success"
+                  size="sm"
+                  radius="sm"
+                  label={ele.label}
+                  value={ele.prob * 100}
+                  showValueLabel={true}
+                  formatOptions={{
+                    style: "percent",
+                    maximumFractionDigits: 1,
+                  }}
+                />
               </div>
             ))}
           </div>

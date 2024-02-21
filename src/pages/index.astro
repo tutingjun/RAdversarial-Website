@@ -18,7 +18,7 @@ const { Content } = await paper[0].render();
   <Header />
   <main id="main-content">
     <section id="hero">
-      <div>
+      <div class="title">
         <h1>Panda or Paintbrush?</h1>
         <h2>An Exploration of Adversarial Attacks on Image Classifiers</h2>
       </div>
@@ -84,9 +84,18 @@ const { Content } = await paper[0].render();
   #hero {
     @apply pb-6 pt-8;
   }
-  #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+
+  #hero .title {
+    @apply sm:mt-4 sm:mb-8;
   }
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-3 sm:text-5xl;
+  }
+
+  #hero h2 {
+    @apply my-4 inline-block text-xl font-bold sm:my-3 sm:text-3xl;
+  }
+
   #hero .rss-link {
     @apply mb-6;
   }

@@ -29,12 +29,14 @@ export const getPerturbationResult = (imageName: string, method: string) => {
   }
   const image_result = curMethod.find(ele => ele.input_name == imageName);
   if (image_result) {
-    return image_result.topk_labels.map((ele, index) => {
-      const prob = image_result.topk_probabilities[index];
-      return {
-        label: ele,
-        prob: Math.round(prob * 1000) / 1000,
-      } as ModelResult;
-    });
+    return image_result.topk_labels
+      .map((ele, index) => {
+        const prob = image_result.topk_probabilities[index];
+        return {
+          label: ele,
+          prob: prob,
+        } as ModelResult;
+      })
+      .slice(0, 3);
   }
 };

@@ -1,54 +1,82 @@
 [
   {
     "input_name": "milo.jpg",
+    "true_label": "tabby, tabby cat",
     "true_label_idx": 281,
-    "num_iteration": "Not Applicable",
+    "original_top1_index": 281,
     "original_true_class_probability": 0.5022376775741577,
-    "true_class_probability": 1.5267416508552706e-13,
-    "topk_indices": [285, 778, 824],
-    "topk_labels": ["Egyptian cat", "scale, weighing machine", "stole"],
+    "true_class_probability": 0.0004086992994416505,
+    "topk_indices": [285, 281, 761, 282, 845],
+    "topk_labels": [
+      "Egyptian cat",
+      "tabby, tabby cat",
+      "remote control, remote",
+      "tiger cat",
+      "syringe"
+    ],
     "topk_probabilities": [
-      0.9999971389770508, 2.4541939183109207e-6, 1.2869435295215226e-7
+      0.9926234483718872, 0.0004086992994416505, 0.0003688545839395374,
+      0.000365434680134058, 0.00029628296033479273
     ]
   },
   {
     "input_name": "ox.jpg",
+    "true_label": "ox",
     "true_label_idx": 345,
-    "num_iteration": "Not Applicable",
+    "original_top1_index": 345,
     "original_true_class_probability": 0.9273841381072998,
-    "true_class_probability": 3.546091198458612e-9,
-    "topk_indices": [168, 161, 171],
-    "topk_labels": ["redbone", "basset, basset hound", "Italian greyhound"],
+    "true_class_probability": 0.00016158894868567586,
+    "topk_indices": [180, 179, 242, 243, 253],
+    "topk_labels": [
+      "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
+      "Staffordshire bullterrier, Staffordshire bull terrier",
+      "boxer",
+      "bull mastiff",
+      "basenji"
+    ],
     "topk_probabilities": [
-      0.18708916008472443, 0.15838609635829926, 0.14287534356117249
+      0.7424657344818115, 0.10486678034067154, 0.0099994707852602,
+      0.00613411096855998, 0.004248321987688541
+    ]
+  },
+  {
+    "input_name": "pig-fence.jpeg",
+    "true_label": "hog, pig, grunter, squealer, Sus scrofa",
+    "true_label_idx": 341,
+    "original_top1_index": 341,
+    "original_true_class_probability": 0.9161697626113892,
+    "true_class_probability": 2.6299259991979795e-10,
+    "topk_indices": [452, 703, 447, 843, 501],
+    "topk_labels": [
+      "bonnet, poke bonnet",
+      "park bench",
+      "binoculars, field glasses, opera glasses",
+      "swing",
+      "cloak"
+    ],
+    "topk_probabilities": [
+      0.999664306640625, 7.973316678544506e-5, 3.209123315173201e-5,
+      2.638182559167035e-5, 1.015614270727383e-5
     ]
   },
   {
     "input_name": "puppy.jpg",
+    "true_label": "Labrador retriever",
     "true_label_idx": 208,
-    "num_iteration": "Not Applicable",
+    "original_top1_index": 208,
     "original_true_class_probability": 0.7357765436172485,
-    "true_class_probability": 2.4401161646814273e-11,
-    "topk_indices": [267, 747, 898],
+    "true_class_probability": 1.954240542545449e-5,
+    "topk_indices": [222, 257, 589, 475, 627],
     "topk_labels": [
-      "standard poodle",
-      "punching bag, punch bag, punching ball, punchball",
-      "water bottle"
+      "kuvasz",
+      "Great Pyrenees",
+      "hand blower, blow dryer, blow drier, hair dryer, hair drier",
+      "car mirror",
+      "limousine, limo"
     ],
     "topk_probabilities": [
-      0.9996525049209595, 9.443709132028744e-5, 5.0313065003138036e-5
-    ]
-  },
-  {
-    "input_name": "pig.jpg",
-    "true_label_idx": 341,
-    "num_iteration": "Not Applicable",
-    "original_true_class_probability": 0.9741244912147522,
-    "true_class_probability": 7.725378026179897e-8,
-    "topk_indices": [99, 129, 134],
-    "topk_labels": ["goose", "spoonbill", "crane"],
-    "topk_probabilities": [
-      0.7099324464797974, 0.07664407789707184, 0.036447085440158844
+      0.98933345079422, 0.0008875036728568375, 0.0004103681130800396,
+      0.0002591513330116868, 0.00017181488510686904
     ]
   }
 ]
