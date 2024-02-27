@@ -1,8 +1,8 @@
-import Fuse from "fuse.js";
 import { useEffect, useRef, useState, useMemo } from "react";
 import { Original } from "@content/perturbed_result";
 import { curImage } from "imageStore";
-import { Button, Input } from "@nextui-org/react";
+import { Autocomplete, AutocompleteItem, Button } from "@nextui-org/react";
+import React from "react";
 
 export type SearchItem = {
   input_name: string;
@@ -16,75 +16,34 @@ export type SearchItem = {
   topk_probabilities: number[];
 };
 
-interface SearchResult {
-  item: SearchItem;
-  refIndex: number;
-}
-
 function generateRandom(max: number, exclude: number): number {
   var num = Math.floor(Math.random() * max);
   return num === exclude ? generateRandom(max, exclude) : num;
 }
 
 export default function SearchBar() {
-  const [inputVal, setInputVal] = useState("");
   var index: number;
-  const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
-    null
-  );
 
-  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
-    setInputVal(e.currentTarget.value);
+  const onSelectionChange = (key: React.Key) => {
+    if (key) {
+      setSelectedKey(key.toString());
+    }
   };
-
-  const fuse = useMemo(
-    () =>
-      new Fuse(Original, {
-        keys: ["true_label"],
-        includeMatches: true,
-        minMatchCharLength: 2,
-        threshold: 0.3,
-      }),
-    []
-  );
+  const [selectedKey, setSelectedKey] = React.useState<string>("");
 
   useEffect(() => {
-    // Add search result only if
-    // input value is more than one character
-    if (inputVal.length === 0) {
-      index = -1;
-    }
-    let inputResult = inputVal.length > 1 ? fuse.search(inputVal) : [];
-    setSearchResults(inputResult);
-
-    // Update search string in URL
-    if (inputVal.length > 0) {
-      const searchParams = new URLSearchParams(window.location.search);
-      searchParams.set("q", inputVal);
-      const newRelativePathQuery =
-        window.location.pathname + "?" + searchParams.toString();
-      history.replaceState(history.state, "", newRelativePathQuery);
-    } else {
-      history.replaceState(history.state, "", window.location.pathname);
-    }
-  }, [inputVal]);
-
-  useEffect(() => {
-    if (searchResults && searchResults.length > 0) {
-      index = Math.floor(Math.random() * searchResults.length);
-
-      const img = searchResults[index].item;
-      curImage.set(img.input_name);
+    if (selectedKey.length > 0) {
+      curImage.set(selectedKey);
     } else {
       curImage.set("");
       index = -1;
     }
-  }, [searchResults]);
+  }, [selectedKey]);
 
   return (
     <>
       <div className="mb-8 flex flex-row items-center justify-between gap-2">
-        <Input
+        {/* <Input
           isClearable
           radius="lg"
           variant="bordered"
@@ -98,7 +57,28 @@ export default function SearchBar() {
           onChange={handleChange}
           onClear={() => setInputVal("")}
           autoComplete="off"
-        />
+        /> */}
+        <Autocomplete
+          size="md"
+          label="Select an image class"
+          classNames={{
+            base: "max-w-lg",
+            listboxWrapper: "dropdown-color",
+          }}
+          variant="bordered"
+          onSelectionChange={onSelectionChange}
+          clearButtonProps={{
+            onClick: () => {
+              curImage.set("");
+            },
+          }}
+        >
+          {Original.map(img => (
+            <AutocompleteItem key={img.input_name} value={img.input_name}>
+              {img.true_label}
+            </AutocompleteItem>
+          ))}
+        </Autocomplete>
         <Button
           color="danger"
           size="lg"
@@ -110,33 +90,6 @@ export default function SearchBar() {
           Random Image
         </Button>
       </div>
-
-      {inputVal.length > 1 && (
-        <div className=" mt-8 flex flex-row items-center justify-between">
-          <div className="">
-            Found {searchResults?.length}
-            {searchResults?.length && searchResults?.length === 1
-              ? " result"
-              : " results"}{" "}
-            for '{inputVal}'
-          </div>
-          {searchResults?.length && searchResults?.length > 1 ? (
-            <Button
-              className="text-sm"
-              color="default"
-              variant="flat"
-              size="sm"
-              onClick={() => {
-                index = generateRandom(searchResults.length, index);
-                console.log(index);
-                curImage.set(searchResults[index].item.input_name);
-              }}
-            >
-              Another One
-            </Button>
-          ) : null}
-        </div>
-      )}
     </>
   );
 }

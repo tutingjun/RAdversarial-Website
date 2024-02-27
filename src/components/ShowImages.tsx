@@ -38,6 +38,16 @@ export default function ShowImageDetails() {
           />
         ))}
       </div>
+      <div className="flex flex-col gap-5  py-5 sm:flex-row sm:gap-16">
+        {["FGSM_Surrogate", "PGD_Surrogate"].map(ele => (
+          <ImageCard
+            key={ele}
+            method_name={ele}
+            path={getImagePath($curImage, ele)}
+            prediction={getPerturbationResult($curImage, ele)}
+          />
+        ))}
+      </div>
     </div>
   ) : null;
 }

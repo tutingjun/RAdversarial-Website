@@ -7,12 +7,14 @@ import { SITE } from "@config";
 
 import ShowImageDetails from "@components/ShowImages";
 import SearchBar from "@components/Search";
+import DropDown from "@components/Dropdown";
 ---
 
 <Layout title={`Demonstation | ${SITE.title}`}>
   <Header activeNav="demonstrate" />
   <Main pageTitle="Demonstation" pageDesc="Demonstation of each attack method.">
     <SearchBar client:only="react" />
+    <!-- <DropDown client:only="react" /> -->
     <ShowImageDetails client:only="react" />
   </Main>
   <Footer />
