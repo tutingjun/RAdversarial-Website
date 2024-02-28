@@ -5,19 +5,20 @@
     "true_label_idx": 858,
     "original_top1_index": 858,
     "original_true_class_probability": 0.6865803599357605,
-    "true_class_probability": 2.2717576867644113e-20,
-    "topk_indices": [562, 476, 835, 971, 130],
+    "true_class_probability": 3.224700784176804e-10,
+    "topk_indices": [538, 668, 727, 884, 497],
     "topk_labels": [
-      "fountain",
-      "carousel, carrousel, merry-go-round, roundabout, whirligig",
-      "sundial",
-      "bubble",
-      "flamingo"
+      "dome",
+      "mosque",
+      "planetarium",
+      "vault",
+      "church, church building"
     ],
     "topk_probabilities": [
-      0.9999997615814209, 9.710447557154112e-8, 3.96220229958999e-8,
-      2.455799297251815e-8, 6.081788406220312e-9
-    ]
+      0.9998953342437744, 8.032147161429748e-5, 9.685647455626167e-6,
+      3.7827130654477514e-6, 2.7804151159216417e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043430_n03314780.JPEG",
@@ -25,19 +26,20 @@
     "true_label_idx": 551,
     "original_top1_index": 551,
     "original_true_class_probability": 0.8743940591812134,
-    "true_class_probability": 6.88084376438554e-21,
-    "topk_indices": [784, 845, 769, 749, 587],
+    "true_class_probability": 1.0472377208417758e-16,
+    "topk_indices": [784, 845, 740, 477, 749],
     "topk_labels": [
       "screwdriver",
       "syringe",
-      "rule, ruler",
-      "quill, quill pen",
-      "hammer"
+      "power drill",
+      "carpenter's kit, tool kit",
+      "quill, quill pen"
     ],
     "topk_probabilities": [
-      0.9999990463256836, 7.664186227884784e-7, 7.709568450309234e-8,
-      6.874199698359007e-8, 4.1885343193825975e-8
-    ]
+      0.9999909400939941, 3.880922122334596e-6, 3.435529833950568e-6,
+      6.924573767719266e-7, 4.000105775503471e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00026898_n03976657.JPEG",
@@ -45,19 +47,20 @@
     "true_label_idx": 733,
     "original_top1_index": 733,
     "original_true_class_probability": 0.8222254514694214,
-    "true_class_probability": 8.575930937154702e-23,
-    "topk_indices": [456, 778, 835, 842, 917],
+    "true_class_probability": 1.9674296999117696e-21,
+    "topk_indices": [456, 778, 123, 462, 784],
     "topk_labels": [
       "bow",
       "scale, weighing machine",
-      "sundial",
-      "swimming trunks, bathing trunks",
-      "comic book"
+      "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish",
+      "broom",
+      "screwdriver"
     ],
     "topk_probabilities": [
-      0.9999996423721313, 3.866376232508628e-7, 9.991224736438653e-9,
-      1.6662905499842395e-9, 8.66801352916724e-10
-    ]
+      1.0, 2.204120796989173e-8, 1.2689876927041155e-9, 1.1529409649213562e-9,
+      7.138716284771363e-10
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00010470_n07714990.JPEG",
@@ -65,19 +68,20 @@
     "true_label_idx": 937,
     "original_top1_index": 937,
     "original_true_class_probability": 0.9143917560577393,
-    "true_class_probability": 8.946364538076068e-9,
-    "topk_indices": [420, 850, 880, 491, 889],
+    "true_class_probability": 3.4916976687782153e-7,
+    "topk_indices": [865, 417, 879, 880, 850],
     "topk_labels": [
-      "banjo",
-      "teddy, teddy bear",
+      "toyshop",
+      "balloon",
+      "umbrella",
       "unicycle, monocycle",
-      "chain saw, chainsaw",
-      "violin, fiddle"
+      "teddy, teddy bear"
     ],
     "topk_probabilities": [
-      0.8787580132484436, 0.022113541141152382, 0.019673926755785942,
-      0.011581466533243656, 0.007711135316640139
-    ]
+      0.938335657119751, 0.037987563759088516, 0.002160410163924098,
+      0.0021106540225446224, 0.0020171371288597584
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00029648_n02089078.JPEG",
@@ -85,19 +89,20 @@
     "true_label_idx": 165,
     "original_top1_index": 165,
     "original_true_class_probability": 0.5143797397613525,
-    "true_class_probability": 1.346759075787629e-13,
-    "topk_indices": [164, 971, 180, 179, 815],
+    "true_class_probability": 2.972600464390407e-14,
+    "topk_indices": [164, 971, 362, 232, 212],
     "topk_labels": [
       "bluetick",
       "bubble",
-      "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
-      "Staffordshire bullterrier, Staffordshire bull terrier",
-      "spider web, spider's web"
+      "badger",
+      "Border collie",
+      "English setter"
     ],
     "topk_probabilities": [
-      0.9892483353614807, 0.010646111331880093, 4.692142101703212e-5,
-      1.526557025499642e-5, 5.027991392125841e-6
-    ]
+      0.9985792636871338, 0.001391414669342339, 8.263615200121421e-6,
+      6.666288300039014e-6, 3.903031029039994e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00000065_n04371430.JPEG",
@@ -105,19 +110,20 @@
     "true_label_idx": 842,
     "original_top1_index": 842,
     "original_true_class_probability": 0.5557795166969299,
-    "true_class_probability": 7.7544305017725e-21,
-    "topk_indices": [752, 852, 88, 39, 89],
+    "true_class_probability": 1.5230853245284948e-9,
+    "topk_indices": [752, 160, 456, 880, 337],
     "topk_labels": [
       "racket, racquet",
-      "tennis ball",
-      "macaw",
-      "common iguana, iguana, Iguana iguana",
-      "sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita"
+      "Afghan hound, Afghan",
+      "bow",
+      "unicycle, monocycle",
+      "beaver"
     ],
     "topk_probabilities": [
-      1.0, 3.1171771830429407e-9, 1.5644482931342907e-10, 7.779105137828424e-11,
-      1.7431814672286272e-11
-    ]
+      0.9849948287010193, 0.005094519350677729, 0.003718953812494874,
+      0.0011420708615332842, 0.0003743792185559869
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00023213_n02074367.JPEG",
@@ -125,19 +131,20 @@
     "true_label_idx": 149,
     "original_top1_index": 149,
     "original_true_class_probability": 0.8324528932571411,
-    "true_class_probability": 2.95459195431744e-19,
-    "topk_indices": [452, 911, 559, 501, 434],
+    "true_class_probability": 9.951490586440626e-13,
+    "topk_indices": [452, 591, 749, 434, 443],
     "topk_labels": [
       "bonnet, poke bonnet",
-      "wool, woolen, woollen",
-      "folding chair",
-      "cloak",
-      "bath towel"
+      "handkerchief, hankie, hanky, hankey",
+      "quill, quill pen",
+      "bath towel",
+      "bib"
     ],
     "topk_probabilities": [
-      1.0, 7.030802606777797e-10, 2.7487787046531764e-10, 2.738589632844679e-10,
-      1.9369791881551635e-10
-    ]
+      0.999997615814209, 1.5181784647211316e-6, 2.469199671395472e-7,
+      2.375177103886017e-7, 7.42067314263295e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00013066_n02894605.JPEG",
@@ -145,19 +152,20 @@
     "true_label_idx": 460,
     "original_top1_index": 460,
     "original_true_class_probability": 0.7297295331954956,
-    "true_class_probability": 5.232938942454403e-19,
-    "topk_indices": [762, 594, 879, 706, 887],
+    "true_class_probability": 5.464234750438002e-13,
+    "topk_indices": [217, 212, 232, 205, 594],
     "topk_labels": [
-      "restaurant, eating house, eating place, eatery",
-      "harp",
-      "umbrella",
-      "patio, terrace",
-      "vestment"
+      "English springer, English springer spaniel",
+      "English setter",
+      "Border collie",
+      "flat-coated retriever",
+      "harp"
     ],
     "topk_probabilities": [
-      0.9999991655349731, 3.922963571767468e-7, 2.1850327414085768e-7,
-      8.836013165591794e-8, 3.167647832924558e-8
-    ]
+      0.9955978989601135, 0.0009889670182019472, 0.000671867688652128,
+      0.0006669468712061644, 0.00030462269205600023
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00040714_n03942813.JPEG",
@@ -165,19 +173,20 @@
     "true_label_idx": 722,
     "original_top1_index": 722,
     "original_true_class_probability": 0.9742357134819031,
-    "true_class_probability": 5.613526164006729e-20,
-    "topk_indices": [703, 412, 458, 637, 835],
+    "true_class_probability": 3.4405961329586834e-18,
+    "topk_indices": [637, 412, 448, 463, 703],
     "topk_labels": [
-      "park bench",
-      "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
-      "brass, memorial tablet, plaque",
       "mailbox, letter box",
-      "sundial"
+      "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
+      "birdhouse",
+      "bucket, pail",
+      "park bench"
     ],
     "topk_probabilities": [
-      1.0, 8.520538719025694e-10, 4.554083499197503e-10, 9.786875476702761e-11,
-      5.391697852075161e-11
-    ]
+      0.9999896287918091, 1.0086695510835852e-5, 1.51661424752092e-7,
+      6.171272559640784e-8, 1.9142158080853733e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00047427_n03450230.JPEG",
@@ -185,19 +194,20 @@
     "true_label_idx": 578,
     "original_top1_index": 578,
     "original_true_class_probability": 0.7978544235229492,
-    "true_class_probability": 2.6517753462742706e-26,
-    "topk_indices": [700, 862, 999, 811, 114],
+    "true_class_probability": 2.3361994542397176e-16,
+    "topk_indices": [700, 862, 890, 114, 999],
     "topk_labels": [
       "paper towel",
       "torch",
-      "toilet tissue, toilet paper, bathroom tissue",
-      "space heater",
-      "slug"
+      "volleyball",
+      "slug",
+      "toilet tissue, toilet paper, bathroom tissue"
     ],
     "topk_probabilities": [
-      1.0, 9.969192832359752e-11, 1.788147429605813e-12, 1.167898893913999e-12,
-      8.570352543965654e-13
-    ]
+      0.9999998807907104, 4.73065391304317e-8, 1.6667749846988045e-8,
+      4.714914680903348e-9, 2.007938038062207e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00025625_n03982430.JPEG",
@@ -205,19 +215,20 @@
     "true_label_idx": 736,
     "original_top1_index": 736,
     "original_true_class_probability": 0.8148778676986694,
-    "true_class_probability": 4.160526369845481e-27,
-    "topk_indices": [828, 618, 813, 659, 463],
+    "true_class_probability": 2.2339620481105315e-16,
+    "topk_indices": [828, 567, 618, 550, 647],
     "topk_labels": [
       "strainer",
+      "frying pan, frypan, skillet",
       "ladle",
-      "spatula",
-      "mixing bowl",
-      "bucket, pail"
+      "espresso maker",
+      "measuring cup"
     ],
     "topk_probabilities": [
-      1.0, 2.0993062843643884e-9, 3.3769759211210726e-10,
-      2.7177390893307063e-10, 2.525747944126522e-10
-    ]
+      0.9999899864196777, 2.3092038645700086e-6, 2.0809382021980127e-6,
+      1.920510385389207e-6, 1.2945729395141825e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00011327_n04069434.JPEG",
@@ -225,19 +236,20 @@
     "true_label_idx": 759,
     "original_top1_index": 759,
     "original_true_class_probability": 0.6852201819419861,
-    "true_class_probability": 9.089167589180792e-25,
-    "topk_indices": [778, 530, 771, 613, 892],
+    "true_class_probability": 4.0138972040749325e-23,
+    "topk_indices": [778, 530, 896, 435, 398],
     "topk_labels": [
       "scale, weighing machine",
       "digital clock",
-      "safe",
-      "joystick",
-      "wall clock"
+      "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
+      "bathtub, bathing tub, bath, tub",
+      "abacus"
     ],
     "topk_probabilities": [
-      1.0, 5.6314390650680224e-11, 1.9137198336433014e-13,
-      2.3029851747955084e-14, 1.3942623944762037e-14
-    ]
+      1.0, 6.575395609942358e-12, 2.2456422301125184e-13, 1.427988112413965e-14,
+      1.1977162764722528e-14
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00046528_n07614500.JPEG",
@@ -245,19 +257,20 @@
     "true_label_idx": 928,
     "original_top1_index": 928,
     "original_true_class_probability": 0.49303221702575684,
-    "true_class_probability": 2.146491706397731e-24,
-    "topk_indices": [923, 943, 868, 532, 996],
+    "true_class_probability": 7.137237752727031e-18,
+    "topk_indices": [923, 124, 943, 959, 762],
     "topk_labels": [
       "plate",
+      "crayfish, crawfish, crawdad, crawdaddy",
       "cucumber, cuke",
-      "tray",
-      "dining table, board",
-      "hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa"
+      "carbonara",
+      "restaurant, eating house, eating place, eatery"
     ],
     "topk_probabilities": [
-      0.9999995231628418, 5.20948049143044e-7, 1.4015128613209527e-8,
-      2.150692068880744e-9, 1.1171867875248154e-9
-    ]
+      0.9999953508377075, 1.8297359929420054e-6, 1.6618756717434735e-6,
+      4.1374849502062716e-7, 3.0866550559949246e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00047831_n03958227.JPEG",
@@ -265,19 +278,20 @@
     "true_label_idx": 728,
     "original_top1_index": 728,
     "original_true_class_probability": 0.9440165758132935,
-    "true_class_probability": 1.7496176309155581e-22,
-    "topk_indices": [691, 570, 983, 471, 787],
+    "true_class_probability": 2.2148660079520386e-15,
+    "topk_indices": [835, 635, 847, 456, 812],
     "topk_labels": [
-      "oxygen mask",
-      "gasmask, respirator, gas helmet",
-      "scuba diver",
-      "cannon",
-      "shield, buckler"
+      "sundial",
+      "magnetic compass",
+      "tank, army tank, armored combat vehicle, armoured combat vehicle",
+      "bow",
+      "space shuttle"
     ],
     "topk_probabilities": [
-      0.9999983310699463, 1.6526365698155132e-6, 1.100272761789256e-8,
-      1.9151118468840878e-9, 7.926807543690018e-10
-    ]
+      0.5467162132263184, 0.2802625894546509, 0.12823420763015747,
+      0.011461007408797741, 0.010607237927615643
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00049602_n01695060.JPEG",
@@ -285,19 +299,20 @@
     "true_label_idx": 48,
     "original_top1_index": 48,
     "original_true_class_probability": 0.9508486986160278,
-    "true_class_probability": 1.5287347776560267e-11,
-    "topk_indices": [33, 397, 329, 289, 29],
+    "true_class_probability": 4.688892385473764e-9,
+    "topk_indices": [33, 67, 68, 289, 288],
     "topk_labels": [
       "loggerhead, loggerhead turtle, Caretta caretta",
-      "puffer, pufferfish, blowfish, globefish",
-      "sea cucumber, holothurian",
+      "diamondback, diamondback rattlesnake, Crotalus adamanteus",
+      "sidewinder, horned rattlesnake, Crotalus cerastes",
       "snow leopard, ounce, Panthera uncia",
-      "axolotl, mud puppy, Ambystoma mexicanum"
+      "leopard, Panthera pardus"
     ],
     "topk_probabilities": [
-      0.9988105297088623, 0.0006919312872923911, 0.0002172231033910066,
-      6.0115773521829396e-5, 1.902550684462767e-5
-    ]
+      0.9887310862541199, 0.002402598038315773, 0.002052530413493514,
+      0.000606232788413763, 0.0004493856686167419
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00020924_n04099969.JPEG",
@@ -305,19 +320,20 @@
     "true_label_idx": 765,
     "original_top1_index": 765,
     "original_true_class_probability": 0.8285462260246277,
-    "true_class_probability": 1.1018279211547176e-20,
-    "topk_indices": [748, 619, 635, 709, 470],
+    "true_class_probability": 6.245814976324482e-11,
+    "topk_indices": [363, 589, 811, 882, 662],
     "topk_labels": [
-      "purse",
-      "lampshade, lamp shade",
-      "magnetic compass",
-      "pencil box, pencil case",
-      "candle, taper, wax light"
+      "armadillo",
+      "hand blower, blow dryer, blow drier, hair dryer, hair drier",
+      "space heater",
+      "vacuum, vacuum cleaner",
+      "modem"
     ],
     "topk_probabilities": [
-      0.9999996423721313, 1.1613595773951602e-7, 7.84507818707425e-8,
-      6.006810338021751e-8, 1.3931522602206314e-8
-    ]
+      0.9061137437820435, 0.022823840379714966, 0.015714924782514572,
+      0.008466157130897045, 0.006894700229167938
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036565_n03026506.JPEG",
@@ -325,19 +341,20 @@
     "true_label_idx": 496,
     "original_top1_index": 496,
     "original_true_class_probability": 0.9163209795951843,
-    "true_class_probability": 1.726872653084278e-19,
-    "topk_indices": [647, 438, 503, 968, 712],
+    "true_class_probability": 7.408867487713317e-16,
+    "topk_indices": [647, 438, 837, 712, 771],
     "topk_labels": [
       "measuring cup",
       "beaker",
-      "cocktail shaker",
-      "cup",
-      "Petri dish"
+      "sunglasses, dark glasses, shades",
+      "Petri dish",
+      "safe"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 7.438119808966803e-8, 1.4481570387303577e-9,
-      9.282977719848873e-10, 7.024045789449929e-10
-    ]
+      0.9999924898147583, 7.503018423449248e-6, 3.8583756634125166e-8,
+      3.010585203355731e-8, 2.937470533481701e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00048826_n03494278.JPEG",
@@ -345,19 +362,20 @@
     "true_label_idx": 593,
     "original_top1_index": 593,
     "original_true_class_probability": 0.9135247468948364,
-    "true_class_probability": 1.3719057031069056e-21,
-    "topk_indices": [521, 124, 897, 861, 168],
+    "true_class_probability": 7.060534611396524e-14,
+    "topk_indices": [966, 845, 457, 585, 907],
     "topk_labels": [
-      "Crock Pot",
-      "crayfish, crawfish, crawdad, crawdaddy",
-      "washer, automatic washer, washing machine",
-      "toilet seat",
-      "redbone"
+      "red wine",
+      "syringe",
+      "bow tie, bow-tie, bowtie",
+      "hair spray",
+      "wine bottle"
     ],
     "topk_probabilities": [
-      0.9999997615814209, 1.759230769948772e-7, 3.6983390572231656e-8,
-      1.0559721985714532e-8, 7.40069872051663e-9
-    ]
+      0.9993661046028137, 0.00022096965403761715, 0.0002082996506942436,
+      5.301769851939753e-5, 4.140493183513172e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00019173_n02109961.JPEG",
@@ -365,19 +383,20 @@
     "true_label_idx": 248,
     "original_top1_index": 248,
     "original_true_class_probability": 0.5355647206306458,
-    "true_class_probability": 3.246486467243376e-13,
-    "topk_indices": [249, 269, 695, 892, 792],
+    "true_class_probability": 4.119056658258291e-12,
+    "topk_indices": [249, 792, 892, 658, 235],
     "topk_labels": [
       "malamute, malemute, Alaskan malamute",
-      "timber wolf, grey wolf, gray wolf, Canis lupus",
-      "padlock",
+      "shovel",
       "wall clock",
-      "shovel"
+      "mitten",
+      "German shepherd, German shepherd dog, German police dog, alsatian"
     ],
     "topk_probabilities": [
-      1.0, 4.581713231033291e-9, 5.395074942349254e-10, 1.2764442280932542e-10,
-      1.22772708666119e-10
-    ]
+      0.9999998807907104, 6.879582770125126e-8, 5.005876246855223e-8,
+      2.809622579036386e-8, 9.327922434465563e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00022665_n02804414.JPEG",
@@ -385,19 +404,20 @@
     "true_label_idx": 431,
     "original_top1_index": 431,
     "original_true_class_probability": 0.11956529319286346,
-    "true_class_probability": 6.641918422540185e-25,
-    "topk_indices": [769, 644, 917, 611, 767],
+    "true_class_probability": 2.1001999430447732e-20,
+    "topk_indices": [481, 482, 848, 485, 673],
     "topk_labels": [
-      "rule, ruler",
-      "matchstick",
-      "comic book",
-      "jigsaw puzzle",
-      "rubber eraser, rubber, pencil eraser"
+      "cassette",
+      "cassette player",
+      "tape player",
+      "CD player",
+      "mouse, computer mouse"
     ],
     "topk_probabilities": [
-      1.0, 3.593233444121324e-8, 2.7221517484576907e-8, 2.4486389804678765e-8,
-      1.3225803563443606e-8
-    ]
+      0.9999315738677979, 4.381369217298925e-5, 2.4653785658301786e-5,
+      2.4561834788272563e-9, 3.7432451582830595e-10
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00001670_n02325366.JPEG",
@@ -405,19 +425,20 @@
     "true_label_idx": 330,
     "original_top1_index": 330,
     "original_true_class_probability": 0.6695891618728638,
-    "true_class_probability": 1.423903577928984e-17,
-    "topk_indices": [191, 189, 266, 193, 184],
+    "true_class_probability": 4.860936739931043e-12,
+    "topk_indices": [191, 189, 175, 193, 266],
     "topk_labels": [
       "Airedale, Airedale terrier",
       "Lakeland terrier",
-      "miniature poodle",
+      "otterhound, otter hound",
       "Australian terrier",
-      "Irish terrier"
+      "miniature poodle"
     ],
     "topk_probabilities": [
-      0.9999980926513672, 1.1226446758882958e-6, 3.6029223338118754e-7,
-      2.4750076477175753e-7, 1.1641965613762295e-7
-    ]
+      0.990679919719696, 0.009296339005231857, 5.1587917369033676e-6,
+      2.3629122551938053e-6, 2.1552923499257304e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00033159_n01768244.JPEG",
@@ -425,19 +446,20 @@
     "true_label_idx": 69,
     "original_top1_index": 69,
     "original_true_class_probability": 0.9104712009429932,
-    "true_class_probability": 2.406254871374511e-21,
-    "topk_indices": [488, 761, 664, 695, 455],
+    "true_class_probability": 2.3913110600297556e-14,
+    "topk_indices": [845, 519, 769, 469, 412],
     "topk_labels": [
-      "chain",
-      "remote control, remote",
-      "monitor",
-      "padlock",
-      "bottlecap"
+      "syringe",
+      "crate",
+      "rule, ruler",
+      "caldron, cauldron",
+      "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 7.202620366797419e-8, 4.4924002295942955e-9,
-      2.3262032300408464e-9, 2.2234327712311597e-9
-    ]
+      0.9747002124786377, 0.01786866784095764, 0.0034889010712504387,
+      0.000747010693885386, 0.0004781461029779166
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00008397_n02105412.JPEG",
@@ -445,19 +467,20 @@
     "true_label_idx": 227,
     "original_top1_index": 227,
     "original_true_class_probability": 0.8434798717498779,
-    "true_class_probability": 3.7609490928664735e-25,
-    "topk_indices": [700, 999, 434, 99, 591],
+    "true_class_probability": 5.544027693524245e-13,
+    "topk_indices": [700, 999, 434, 591, 224],
     "topk_labels": [
       "paper towel",
       "toilet tissue, toilet paper, bathroom tissue",
       "bath towel",
-      "goose",
-      "handkerchief, hankie, hanky, hankey"
+      "handkerchief, hankie, hanky, hankey",
+      "groenendael"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 1.754368952333607e-7, 1.6441058584004686e-14,
-      6.181728187741294e-15, 4.5315949275914584e-15
-    ]
+      0.9985622763633728, 0.001437396858818829, 1.458441687418599e-7,
+      2.72856954808276e-8, 1.3055289294072736e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00016104_n02114548.JPEG",
@@ -465,19 +488,14 @@
     "true_label_idx": 270,
     "original_top1_index": 270,
     "original_true_class_probability": 0.8914030194282532,
-    "true_class_probability": 1.0455198989553494e-12,
-    "topk_indices": [331, 330, 332, 438, 773],
-    "topk_labels": [
-      "hare",
-      "wood rabbit, cottontail, cottontail rabbit",
-      "Angora, Angora rabbit",
-      "beaker",
-      "saltshaker, salt shaker"
-    ],
+    "true_class_probability": 1.4047382812520937e-8,
+    "topk_indices": [357, 958, 360, 356, 298],
+    "topk_labels": ["mink", "hay", "otter", "weasel", "mongoose"],
     "topk_probabilities": [
-      0.9999876022338867, 9.317313015344553e-6, 1.7026897012328845e-6,
-      2.895137072300713e-7, 1.0978151721019458e-7
-    ]
+      0.2042868286371231, 0.17778512835502625, 0.140227273106575,
+      0.13157260417938232, 0.037648506462574005
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00037349_n04310018.JPEG",
@@ -485,19 +503,20 @@
     "true_label_idx": 820,
     "original_top1_index": 820,
     "original_true_class_probability": 0.7497723698616028,
-    "true_class_probability": 2.2765747648980868e-26,
-    "topk_indices": [812, 778, 597, 662, 861],
+    "true_class_probability": 1.7842743347045125e-19,
+    "topk_indices": [778, 426, 447, 704, 826],
     "topk_labels": [
-      "space shuttle",
       "scale, weighing machine",
-      "holster",
-      "modem",
-      "toilet seat"
+      "barometer",
+      "binoculars, field glasses, opera glasses",
+      "parking meter",
+      "stopwatch, stop watch"
     ],
     "topk_probabilities": [
-      1.0, 5.259097844712013e-12, 9.567184623194593e-15, 7.405846227069579e-15,
-      4.315707405160019e-15
-    ]
+      1.0, 5.743882036668424e-10, 1.3679055110848992e-10, 3.890686037233415e-11,
+      2.9307316122550997e-12
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00026720_n07768694.JPEG",
@@ -505,19 +524,20 @@
     "true_label_idx": 957,
     "original_top1_index": 957,
     "original_true_class_probability": 0.8129978179931641,
-    "true_class_probability": 7.684931407091254e-17,
-    "topk_indices": [756, 427, 412, 428, 621],
+    "true_class_probability": 2.3202982937786665e-11,
+    "topk_indices": [620, 107, 114, 681, 117],
     "topk_labels": [
-      "rain barrel",
-      "barrel, cask",
-      "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
-      "barrow, garden cart, lawn cart, wheelbarrow",
-      "lawn mower, mower"
+      "laptop, laptop computer",
+      "jellyfish",
+      "slug",
+      "notebook, notebook computer",
+      "chambered nautilus, pearly nautilus, nautilus"
     ],
     "topk_probabilities": [
-      0.9997345805168152, 0.00025551620637997985, 8.57290615385864e-6,
-      2.2533906474109244e-7, 2.156595400037986e-7
-    ]
+      0.7135739326477051, 0.10964091122150421, 0.0312642864882946,
+      0.02594117447733879, 0.012153816409409046
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00011738_n02123597.JPEG",
@@ -525,19 +545,20 @@
     "true_label_idx": 284,
     "original_top1_index": 284,
     "original_true_class_probability": 0.9278725385665894,
-    "true_class_probability": 7.556752769919458e-15,
-    "topk_indices": [591, 434, 748, 794, 452],
+    "true_class_probability": 1.775301017303832e-10,
+    "topk_indices": [272, 212, 269, 273, 591],
     "topk_labels": [
-      "handkerchief, hankie, hanky, hankey",
-      "bath towel",
-      "purse",
-      "shower curtain",
-      "bonnet, poke bonnet"
+      "coyote, prairie wolf, brush wolf, Canis latrans",
+      "English setter",
+      "timber wolf, grey wolf, gray wolf, Canis lupus",
+      "dingo, warrigal, warragal, Canis dingo",
+      "handkerchief, hankie, hanky, hankey"
     ],
     "topk_probabilities": [
-      0.9999805688858032, 1.8763023035717197e-5, 1.355460170771039e-7,
-      7.487881958923026e-8, 7.271373192452302e-8
-    ]
+      0.3197547197341919, 0.26443585753440857, 0.10836250334978104,
+      0.08288053423166275, 0.036604780703783035
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00000231_n01986214.JPEG",
@@ -545,19 +566,20 @@
     "true_label_idx": 125,
     "original_top1_index": 125,
     "original_true_class_probability": 0.7341458797454834,
-    "true_class_probability": 5.849931095092131e-10,
-    "topk_indices": [84, 835, 426, 741, 826],
+    "true_class_probability": 9.82014925106356e-13,
+    "topk_indices": [84, 340, 386, 585, 594],
     "topk_labels": [
       "peacock",
-      "sundial",
-      "barometer",
-      "prayer rug, prayer mat",
-      "stopwatch, stop watch"
+      "zebra",
+      "African elephant, Loxodonta africana",
+      "hair spray",
+      "harp"
     ],
     "topk_probabilities": [
-      0.9931545257568359, 0.002621602499857545, 0.0003064065531361848,
-      0.0002483213902451098, 0.00023713914561085403
-    ]
+      0.9992850422859192, 0.00013260182458907366, 8.562912262277678e-5,
+      6.13885058555752e-5, 5.1963190344395116e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00030344_n02457408.JPEG",
@@ -565,19 +587,20 @@
     "true_label_idx": 364,
     "original_top1_index": 364,
     "original_true_class_probability": 0.9291333556175232,
-    "true_class_probability": 5.3928920790841106e-14,
-    "topk_indices": [381, 379, 374, 371, 382],
+    "true_class_probability": 3.5006084431188356e-7,
+    "topk_indices": [381, 23, 7, 8, 84],
     "topk_labels": [
       "spider monkey, Ateles geoffroyi",
-      "howler monkey, howler",
-      "langur",
-      "patas, hussar monkey, Erythrocebus patas",
-      "squirrel monkey, Saimiri sciureus"
+      "vulture",
+      "cock",
+      "hen",
+      "peacock"
     ],
     "topk_probabilities": [
-      0.9999960660934448, 2.137226147169713e-6, 8.371197850465251e-7,
-      3.050347743283055e-7, 1.9744264534438116e-7
-    ]
+      0.5391978025436401, 0.12839491665363312, 0.0894116684794426,
+      0.07080241292715073, 0.051408715546131134
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00037253_n02134084.JPEG",
@@ -585,19 +608,20 @@
     "true_label_idx": 296,
     "original_top1_index": 296,
     "original_true_class_probability": 0.6153141260147095,
-    "true_class_probability": 1.9884420309314657e-14,
-    "topk_indices": [266, 191, 193, 338, 187],
+    "true_class_probability": 6.456202239490949e-11,
+    "topk_indices": [184, 338, 191, 187, 171],
     "topk_labels": [
-      "miniature poodle",
-      "Airedale, Airedale terrier",
-      "Australian terrier",
+      "Irish terrier",
       "guinea pig, Cavia cobaya",
-      "Yorkshire terrier"
+      "Airedale, Airedale terrier",
+      "Yorkshire terrier",
+      "Italian greyhound"
     ],
     "topk_probabilities": [
-      0.8069842457771301, 0.07086608558893204, 0.04154004901647568,
-      0.02054286003112793, 0.01192182581871748
-    ]
+      0.26415345072746277, 0.14182357490062714, 0.12483992427587509,
+      0.11541126668453217, 0.06237485632300377
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00004330_n02843684.JPEG",
@@ -605,19 +629,20 @@
     "true_label_idx": 448,
     "original_top1_index": 448,
     "original_true_class_probability": 0.6132769584655762,
-    "true_class_probability": 3.865686421098792e-21,
-    "topk_indices": [858, 447, 838, 898, 791],
+    "true_class_probability": 2.1724726260186978e-18,
+    "topk_indices": [858, 447, 838, 898, 741],
     "topk_labels": [
       "tile roof",
       "binoculars, field glasses, opera glasses",
       "sunscreen, sunblock, sun blocker",
       "water bottle",
-      "shopping cart"
+      "prayer rug, prayer mat"
     ],
     "topk_probabilities": [
-      0.9999847412109375, 1.2963929293619003e-5, 1.3977162325318204e-6,
-      3.913259263299551e-7, 5.9494464466069985e-8
-    ]
+      1.0, 1.7091940307523146e-8, 4.136060383075346e-9, 3.085306676808841e-9,
+      2.873058679853102e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00010276_n04612504.JPEG",
@@ -625,19 +650,20 @@
     "true_label_idx": 914,
     "original_top1_index": 914,
     "original_true_class_probability": 0.958469569683075,
-    "true_class_probability": 4.8142315547369684e-20,
-    "topk_indices": [693, 472, 463, 462, 618],
+    "true_class_probability": 1.3433835340845817e-16,
+    "topk_indices": [693, 910, 618, 813, 462],
     "topk_labels": [
       "paddle, boat paddle",
-      "canoe",
-      "bucket, pail",
-      "broom",
-      "ladle"
+      "wooden spoon",
+      "ladle",
+      "spatula",
+      "broom"
     ],
     "topk_probabilities": [
-      1.0, 5.102085420816138e-9, 6.975330313352401e-10, 5.017103399396206e-10,
-      4.474114134733753e-11
-    ]
+      0.9999992847442627, 3.45485972275128e-7, 2.383895179036699e-7,
+      7.073794705547698e-8, 1.2944627592048619e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00039955_n03594734.JPEG",
@@ -645,19 +671,20 @@
     "true_label_idx": 608,
     "original_top1_index": 608,
     "original_true_class_probability": 0.20636150240898132,
-    "true_class_probability": 2.5907632620489523e-17,
-    "topk_indices": [770, 761, 487, 826, 805],
+    "true_class_probability": 9.164692659283102e-13,
+    "topk_indices": [770, 805, 788, 340, 514],
     "topk_labels": [
       "running shoe",
-      "remote control, remote",
-      "cellular telephone, cellular phone, cellphone, cell, mobile phone",
-      "stopwatch, stop watch",
-      "soccer ball"
+      "soccer ball",
+      "shoe shop, shoe-shop, shoe store",
+      "zebra",
+      "cowboy boot"
     ],
     "topk_probabilities": [
-      0.9999996423721313, 1.8866913364945503e-7, 1.0489828383697386e-7,
-      1.779009473068527e-8, 1.2069153676463884e-8
-    ]
+      0.9999985694885254, 6.692160923194024e-7, 1.3444639535009628e-7,
+      9.388172372837289e-8, 5.908614042482441e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00011899_n02174001.JPEG",
@@ -665,19 +692,20 @@
     "true_label_idx": 306,
     "original_top1_index": 306,
     "original_true_class_probability": 0.8376763463020325,
-    "true_class_probability": 7.995218528032699e-14,
-    "topk_indices": [80, 86, 611, 84, 82],
+    "true_class_probability": 1.8568457535450555e-11,
+    "topk_indices": [80, 82, 86, 83, 91],
     "topk_labels": [
       "black grouse",
+      "ruffed grouse, partridge, Bonasa umbellus",
       "partridge",
-      "jigsaw puzzle",
-      "peacock",
-      "ruffed grouse, partridge, Bonasa umbellus"
+      "prairie chicken, prairie grouse, prairie fowl",
+      "coucal"
     ],
     "topk_probabilities": [
-      0.9999227523803711, 2.071596281894017e-5, 1.1015971722372342e-5,
-      1.0976185876643285e-5, 1.0085818757943343e-5
-    ]
+      0.999988317489624, 6.164178103063023e-6, 1.5460626627827878e-6,
+      8.719489983377571e-7, 1.8050626238164114e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00013598_n02002724.JPEG",
@@ -685,13 +713,20 @@
     "true_label_idx": 128,
     "original_top1_index": 128,
     "original_true_class_probability": 0.8729543089866638,
-    "true_class_probability": 1.2344936933150604e-17,
-    "topk_indices": [85, 19, 18, 17, 86],
-    "topk_labels": ["quail", "chickadee", "magpie", "jay", "partridge"],
+    "true_class_probability": 4.663263872273227e-11,
+    "topk_indices": [139, 140, 7, 19, 247],
+    "topk_labels": [
+      "ruddy turnstone, Arenaria interpres",
+      "red-backed sandpiper, dunlin, Erolia alpina",
+      "cock",
+      "chickadee",
+      "Saint Bernard, St Bernard"
+    ],
     "topk_probabilities": [
-      0.9999761581420898, 1.86722772923531e-5, 2.9753916805930203e-6,
-      1.750053570503951e-6, 2.651563306699245e-7
-    ]
+      0.9970410466194153, 0.00045320819481275976, 0.00038663161103613675,
+      0.00029653066303581, 0.00023115005751606077
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00015549_n01496331.JPEG",
@@ -699,19 +734,20 @@
     "true_label_idx": 5,
     "original_top1_index": 5,
     "original_true_class_probability": 0.6105855107307434,
-    "true_class_probability": 2.627504880337028e-10,
-    "topk_indices": [770, 738, 898, 827, 455],
+    "true_class_probability": 2.2528071547584004e-15,
+    "topk_indices": [711, 572, 837, 966, 629],
     "topk_labels": [
-      "running shoe",
-      "pot, flowerpot",
-      "water bottle",
-      "stove",
-      "bottlecap"
+      "perfume, essence",
+      "goblet",
+      "sunglasses, dark glasses, shades",
+      "red wine",
+      "lipstick, lip rouge"
     ],
     "topk_probabilities": [
-      0.9197157621383667, 0.015701990574598312, 0.010454624891281128,
-      0.007608759682625532, 0.005485798232257366
-    ]
+      0.9999898672103882, 5.6938665693451185e-6, 6.252043363019766e-7,
+      5.967761467218224e-7, 3.6741738540513325e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00007635_n04146614.JPEG",
@@ -719,19 +755,14 @@
     "true_label_idx": 779,
     "original_top1_index": 779,
     "original_true_class_probability": 0.8813861012458801,
-    "true_class_probability": 6.848405176285155e-10,
-    "topk_indices": [562, 365, 611, 367, 88],
-    "topk_labels": [
-      "fountain",
-      "orangutan, orang, orangutang, Pongo pygmaeus",
-      "jigsaw puzzle",
-      "chimpanzee, chimp, Pan troglodytes",
-      "macaw"
-    ],
+    "true_class_probability": 8.550593122436112e-9,
+    "topk_indices": [562, 698, 668, 538, 727],
+    "topk_labels": ["fountain", "palace", "mosque", "dome", "planetarium"],
     "topk_probabilities": [
-      0.9067167639732361, 0.05615582689642906, 0.009537937119603157,
-      0.004381729755550623, 0.004180496092885733
-    ]
+      0.9780333638191223, 0.009812920354306698, 0.0036059170961380005,
+      0.003025334794074297, 0.0022889638785272837
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00007366_n02098105.JPEG",
@@ -739,13 +770,20 @@
     "true_label_idx": 202,
     "original_top1_index": 202,
     "original_true_class_probability": 0.7102604508399963,
-    "true_class_probability": 1.5144507382459787e-17,
-    "topk_indices": [903, 552, 643, 501, 585],
-    "topk_labels": ["wig", "feather boa, boa", "mask", "cloak", "hair spray"],
+    "true_class_probability": 4.811495101539158e-14,
+    "topk_indices": [262, 711, 588, 406, 319],
+    "topk_labels": [
+      "Brabancon griffon",
+      "perfume, essence",
+      "hamper",
+      "altar",
+      "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk"
+    ],
     "topk_probabilities": [
-      0.9999994039535522, 3.3486227835055615e-7, 1.565166058981049e-7,
-      4.001099185302337e-8, 3.830538375382275e-8
-    ]
+      0.9993027448654175, 0.0002704320359043777, 0.00014098206884227693,
+      7.364158955169842e-5, 2.9209892090875655e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00041469_n02051845.JPEG",
@@ -753,19 +791,20 @@
     "true_label_idx": 144,
     "original_top1_index": 144,
     "original_true_class_probability": 0.8995058536529541,
-    "true_class_probability": 3.4439187612811395e-11,
-    "topk_indices": [30, 35, 32, 988, 58],
+    "true_class_probability": 5.900818500492733e-9,
+    "topk_indices": [30, 305, 300, 306, 859],
     "topk_labels": [
       "bullfrog, Rana catesbeiana",
-      "mud turtle",
-      "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
-      "acorn",
-      "water snake"
+      "dung beetle",
+      "tiger beetle",
+      "rhinoceros beetle",
+      "toaster"
     ],
     "topk_probabilities": [
-      0.9995207786560059, 0.00023922482796479017, 0.00017190373910125345,
-      6.5419362726970576e-6, 6.284961273195222e-6
-    ]
+      0.8542681932449341, 0.036993563175201416, 0.023727726191282272,
+      0.006471817847341299, 0.006260473281145096
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036686_n02877765.JPEG",
@@ -773,19 +812,20 @@
     "true_label_idx": 455,
     "original_top1_index": 455,
     "original_true_class_probability": 0.9712945818901062,
-    "true_class_probability": 1.4159865502350044e-9,
-    "topk_indices": [348, 99, 338, 332, 508],
+    "true_class_probability": 2.1037112771821756e-16,
+    "topk_indices": [115, 126, 29, 329, 114],
     "topk_labels": [
-      "ram, tup",
-      "goose",
-      "guinea pig, Cavia cobaya",
-      "Angora, Angora rabbit",
-      "computer keyboard, keypad"
+      "sea slug, nudibranch",
+      "isopod",
+      "axolotl, mud puppy, Ambystoma mexicanum",
+      "sea cucumber, holothurian",
+      "slug"
     ],
     "topk_probabilities": [
-      0.49335113167762756, 0.21020154654979706, 0.03571034222841263,
-      0.035082317888736725, 0.03169356659054756
-    ]
+      0.9999978542327881, 1.3373703495744849e-6, 3.8764267173974076e-7,
+      3.3134892873931676e-7, 6.867952606626204e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043983_n02860847.JPEG",
@@ -793,19 +833,20 @@
     "true_label_idx": 450,
     "original_top1_index": 450,
     "original_true_class_probability": 0.9743495583534241,
-    "true_class_probability": 2.51244726222398e-22,
-    "topk_indices": [456, 758, 318, 764, 63],
+    "true_class_probability": 1.8788027215135795e-15,
+    "topk_indices": [872, 477, 784, 740, 487],
     "topk_labels": [
-      "bow",
-      "reel",
-      "lacewing, lacewing fly",
-      "rifle",
-      "Indian cobra, Naja naja"
+      "tripod",
+      "carpenter's kit, tool kit",
+      "screwdriver",
+      "power drill",
+      "cellular telephone, cellular phone, cellphone, cell, mobile phone"
     ],
     "topk_probabilities": [
-      1.0, 1.4161838368664803e-10, 4.8411687852967233e-11,
-      3.7338011155130246e-11, 3.568598888614716e-11
-    ]
+      0.9970711469650269, 0.0013671537162736058, 0.00033054701634682715,
+      0.00031242604018189013, 0.00027996557764708996
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00017838_n03530642.JPEG",
@@ -813,19 +854,20 @@
     "true_label_idx": 599,
     "original_top1_index": 599,
     "original_true_class_probability": 0.2933400869369507,
-    "true_class_probability": 1.5449331267416988e-12,
-    "topk_indices": [619, 815, 556, 879, 818],
+    "true_class_probability": 1.4297679793578988e-12,
+    "topk_indices": [619, 846, 947, 470, 892],
     "topk_labels": [
       "lampshade, lamp shade",
-      "spider web, spider's web",
-      "fire screen, fireguard",
-      "umbrella",
-      "spotlight, spot"
+      "table lamp",
+      "mushroom",
+      "candle, taper, wax light",
+      "wall clock"
     ],
     "topk_probabilities": [
-      0.9926843047142029, 0.002515141386538744, 0.001389511744491756,
-      0.0011408369755372405, 0.0005736168241128325
-    ]
+      0.9999896287918091, 3.799292699113721e-6, 2.7459891498438083e-6,
+      1.3964480558570358e-6, 5.173189379092946e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00046164_n04548362.JPEG",
@@ -833,19 +875,20 @@
     "true_label_idx": 893,
     "original_top1_index": 893,
     "original_true_class_probability": 0.6232675909996033,
-    "true_class_probability": 1.3567584324759108e-17,
-    "topk_indices": [721, 778, 915, 417, 900],
+    "true_class_probability": 3.1467483631151703e-15,
+    "topk_indices": [721, 591, 772, 411, 417],
     "topk_labels": [
       "pillow",
-      "scale, weighing machine",
-      "yurt",
-      "balloon",
-      "water tower"
+      "handkerchief, hankie, hanky, hankey",
+      "safety pin",
+      "apron",
+      "balloon"
     ],
     "topk_probabilities": [
-      0.9961848855018616, 0.001672163838520646, 0.0007341729942709208,
-      0.0005723975482396781, 0.00016591642634011805
-    ]
+      0.9997250437736511, 0.00016680518456269056, 3.280935197835788e-5,
+      1.596875699760858e-5, 1.3967623090138659e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00020700_n02093859.JPEG",
@@ -853,19 +896,20 @@
     "true_label_idx": 183,
     "original_top1_index": 183,
     "original_true_class_probability": 0.46937111020088196,
-    "true_class_probability": 4.246812990259897e-19,
-    "topk_indices": [850, 865, 360, 286, 806],
+    "true_class_probability": 1.9509408330379077e-14,
+    "topk_indices": [850, 865, 568, 719, 291],
     "topk_labels": [
       "teddy, teddy bear",
       "toyshop",
-      "otter",
-      "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor",
-      "sock"
+      "fur coat",
+      "piggy bank, penny bank",
+      "lion, king of beasts, Panthera leo"
     ],
     "topk_probabilities": [
-      1.0, 8.747422231003554e-10, 1.693357121190786e-10, 1.6878722031155036e-10,
-      1.582959041623866e-10
-    ]
+      0.9999991655349731, 3.2216223644354613e-7, 1.8592706396702852e-7,
+      7.783459210486399e-8, 7.319263772842532e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00009328_n03133878.JPEG",
@@ -873,19 +917,20 @@
     "true_label_idx": 521,
     "original_top1_index": 521,
     "original_true_class_probability": 0.9593934416770935,
-    "true_class_probability": 1.1544459365132013e-17,
-    "topk_indices": [530, 778, 531, 761, 398],
+    "true_class_probability": 2.311212202524282e-13,
+    "topk_indices": [530, 619, 442, 562, 646],
     "topk_labels": [
       "digital clock",
-      "scale, weighing machine",
-      "digital watch",
-      "remote control, remote",
-      "abacus"
+      "lampshade, lamp shade",
+      "bell cote, bell cot",
+      "fountain",
+      "maze, labyrinth"
     ],
     "topk_probabilities": [
-      0.9999982118606567, 1.3054191185801756e-6, 4.437709719695704e-7,
-      5.3549418232989865e-9, 5.2494355529120185e-9
-    ]
+      0.9885519742965698, 0.003388400422409177, 0.0022857117000967264,
+      0.0018486087210476398, 0.0009752331534400582
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00012608_n02091244.JPEG",
@@ -893,19 +938,20 @@
     "true_label_idx": 173,
     "original_top1_index": 173,
     "original_true_class_probability": 0.889543354511261,
-    "true_class_probability": 2.4872201215637363e-22,
-    "topk_indices": [265, 266, 259, 189, 187],
+    "true_class_probability": 7.358854872034984e-14,
+    "topk_indices": [189, 265, 191, 199, 539],
     "topk_labels": [
-      "toy poodle",
-      "miniature poodle",
-      "Pomeranian",
       "Lakeland terrier",
-      "Yorkshire terrier"
+      "toy poodle",
+      "Airedale, Airedale terrier",
+      "Scotch terrier, Scottish terrier, Scottie",
+      "doormat, welcome mat"
     ],
     "topk_probabilities": [
-      0.9999983310699463, 1.6190016367545468e-6, 5.656450308144656e-10,
-      1.8131142420774182e-10, 2.6655386231588807e-11
-    ]
+      0.999813973903656, 0.0001611805200809613, 1.9288123439764604e-5,
+      1.9410676941333804e-6, 8.814948273538903e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043999_n04540053.JPEG",
@@ -913,19 +959,20 @@
     "true_label_idx": 890,
     "original_top1_index": 890,
     "original_true_class_probability": 0.9733384847640991,
-    "true_class_probability": 1.2881947053595337e-15,
-    "topk_indices": [416, 769, 754, 458, 835],
+    "true_class_probability": 6.382074958461443e-17,
+    "topk_indices": [882, 589, 673, 650, 606],
     "topk_labels": [
-      "balance beam, beam",
-      "rule, ruler",
-      "radio, wireless",
-      "brass, memorial tablet, plaque",
-      "sundial"
+      "vacuum, vacuum cleaner",
+      "hand blower, blow dryer, blow drier, hair dryer, hair drier",
+      "mouse, computer mouse",
+      "microphone, mike",
+      "iron, smoothing iron"
     ],
     "topk_probabilities": [
-      0.998577356338501, 0.0013190846657380462, 3.811717760981992e-5,
-      2.513480831112247e-5, 7.096145509422058e-6
-    ]
+      0.9999977350234985, 2.2908188839210197e-6, 1.3662400988323498e-8,
+      1.229844315275841e-8, 1.1496604557237333e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00026789_n03995372.JPEG",
@@ -933,19 +980,20 @@
     "true_label_idx": 740,
     "original_top1_index": 740,
     "original_true_class_probability": 0.8889452219009399,
-    "true_class_probability": 3.6397079756593115e-23,
-    "topk_indices": [556, 238, 884, 577, 240],
+    "true_class_probability": 4.763641330644893e-18,
+    "topk_indices": [238, 169, 160, 23, 157],
     "topk_labels": [
-      "fire screen, fireguard",
       "Greater Swiss Mountain dog",
-      "vault",
-      "gong, tam-tam",
-      "Appenzeller"
+      "borzoi, Russian wolfhound",
+      "Afghan hound, Afghan",
+      "vulture",
+      "papillon"
     ],
     "topk_probabilities": [
-      0.9999992847442627, 5.194476102587942e-7, 4.4403666521475316e-8,
-      2.9691420877497876e-8, 1.8713754101895574e-8
-    ]
+      0.8935823440551758, 0.037365153431892395, 0.028479307889938354,
+      0.012420261278748512, 0.004904414061456919
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036195_n01665541.JPEG",
@@ -953,19 +1001,20 @@
     "true_label_idx": 34,
     "original_top1_index": 34,
     "original_true_class_probability": 0.8917626738548279,
-    "true_class_probability": 2.993130266207289e-12,
-    "topk_indices": [363, 448, 298, 748, 382],
+    "true_class_probability": 1.696425555586245e-9,
+    "topk_indices": [363, 58, 298, 772, 63],
     "topk_labels": [
       "armadillo",
-      "birdhouse",
+      "water snake",
       "mongoose",
-      "purse",
-      "squirrel monkey, Saimiri sciureus"
+      "safety pin",
+      "Indian cobra, Naja naja"
     ],
     "topk_probabilities": [
-      0.9973932504653931, 0.0016207231674343348, 0.00021931153605692089,
-      9.105398203246295e-5, 7.435288716806099e-5
-    ]
+      0.9090161323547363, 0.023212643340229988, 0.018810437992215157,
+      0.006990126799792051, 0.0042226738296449184
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00044235_n03720891.JPEG",
@@ -973,19 +1022,20 @@
     "true_label_idx": 641,
     "original_top1_index": 641,
     "original_true_class_probability": 0.9425992369651794,
-    "true_class_probability": 1.5196351304992677e-34,
-    "topk_indices": [589, 585, 504, 882, 761],
+    "true_class_probability": 2.3428482575571637e-18,
+    "topk_indices": [589, 585, 504, 631, 903],
     "topk_labels": [
       "hand blower, blow dryer, blow drier, hair dryer, hair drier",
       "hair spray",
       "coffee mug",
-      "vacuum, vacuum cleaner",
-      "remote control, remote"
+      "lotion",
+      "wig"
     ],
     "topk_probabilities": [
-      1.0, 7.193099333399969e-14, 5.561039305242949e-17, 1.4957973191245404e-17,
-      8.872351657952963e-18
-    ]
+      0.9997605681419373, 0.00023937875812407583, 6.000481445056494e-9,
+      7.811633562226916e-10, 4.35734226478246e-10
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00034727_n03000684.JPEG",
@@ -993,19 +1043,20 @@
     "true_label_idx": 491,
     "original_top1_index": 491,
     "original_true_class_probability": 0.9854314923286438,
-    "true_class_probability": 2.1992917402058158e-14,
-    "topk_indices": [664, 975, 697, 483, 526],
+    "true_class_probability": 1.4699226558168021e-10,
+    "topk_indices": [975, 664, 398, 526, 978],
     "topk_labels": [
-      "monitor",
       "lakeside, lakeshore",
-      "pajama, pyjama, pj's, jammies",
-      "castle",
-      "desk"
+      "monitor",
+      "abacus",
+      "desk",
+      "seashore, coast, seacoast, sea-coast"
     ],
     "topk_probabilities": [
-      0.9581636786460876, 0.010714981704950333, 0.0060992734506726265,
-      0.00548492930829525, 0.0020268610678613186
-    ]
+      0.6461308598518372, 0.12309146672487259, 0.05050865188241005,
+      0.021663298830389977, 0.012187995947897434
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00006529_n02165105.JPEG",
@@ -1013,19 +1064,20 @@
     "true_label_idx": 300,
     "original_top1_index": 300,
     "original_true_class_probability": 0.931140124797821,
-    "true_class_probability": 1.5691628273925567e-23,
-    "topk_indices": [124, 123, 122, 125, 923],
+    "true_class_probability": 6.174333758856609e-18,
+    "topk_indices": [124, 7, 84, 428, 870],
     "topk_labels": [
       "crayfish, crawfish, crawdad, crawdaddy",
-      "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish",
-      "American lobster, Northern lobster, Maine lobster, Homarus americanus",
-      "hermit crab",
-      "plate"
+      "cock",
+      "peacock",
+      "barrow, garden cart, lawn cart, wheelbarrow",
+      "tricycle, trike, velocipede"
     ],
     "topk_probabilities": [
-      1.0, 1.9278547942064295e-12, 5.911639450531525e-13, 3.490120518978568e-13,
-      6.293252187818468e-14
-    ]
+      0.9999984502792358, 8.586891340200964e-7, 1.2239908642186492e-7,
+      1.0703730168870607e-7, 9.736418604688879e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00001963_n02105855.JPEG",
@@ -1033,19 +1085,20 @@
     "true_label_idx": 230,
     "original_top1_index": 230,
     "original_true_class_probability": 0.873091459274292,
-    "true_class_probability": 6.136722166596552e-19,
-    "topk_indices": [249, 248, 250, 257, 701],
+    "true_class_probability": 8.47900224288994e-15,
+    "topk_indices": [249, 587, 596, 296, 248],
     "topk_labels": [
       "malamute, malemute, Alaskan malamute",
-      "Eskimo dog, husky",
-      "Siberian husky",
-      "Great Pyrenees",
-      "parachute, chute"
+      "hammer",
+      "hatchet",
+      "ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus",
+      "Eskimo dog, husky"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 5.174097594817795e-8, 1.5089682392499526e-8,
-      5.8947504655293415e-9, 3.615353794117482e-9
-    ]
+      0.9999699592590332, 1.2067892384948209e-5, 3.602661081458791e-6,
+      1.9001208784175105e-6, 1.6602461982984096e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00044635_n04265275.JPEG",
@@ -1053,19 +1106,14 @@
     "true_label_idx": 811,
     "original_top1_index": 811,
     "original_true_class_probability": 0.8624438047409058,
-    "true_class_probability": 1.3355647830523528e-19,
-    "topk_indices": [753, 784, 421, 600, 749],
-    "topk_labels": [
-      "radiator",
-      "screwdriver",
-      "bannister, banister, balustrade, balusters, handrail",
-      "hook, claw",
-      "quill, quill pen"
-    ],
+    "true_class_probability": 5.004528997427319e-16,
+    "topk_indices": [600, 879, 456, 134, 616],
+    "topk_labels": ["hook, claw", "umbrella", "bow", "crane", "knot"],
     "topk_probabilities": [
-      1.0, 4.919573082240447e-11, 1.0366573051368011e-11, 4.156782557052097e-12,
-      2.962225733801893e-12
-    ]
+      0.9999998807907104, 7.636851506731546e-8, 1.7135777241605865e-8,
+      1.52425911892351e-8, 1.1671928312750879e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00042756_n04136333.JPEG",
@@ -1073,19 +1121,20 @@
     "true_label_idx": 775,
     "original_top1_index": 775,
     "original_true_class_probability": 0.9423386454582214,
-    "true_class_probability": 1.555798872847866e-24,
-    "topk_indices": [448, 725, 716, 619, 497],
+    "true_class_probability": 2.1196206248519367e-11,
+    "topk_indices": [619, 846, 725, 899, 849],
     "topk_labels": [
-      "birdhouse",
-      "pitcher, ewer",
-      "picket fence, paling",
       "lampshade, lamp shade",
-      "church, church building"
+      "table lamp",
+      "pitcher, ewer",
+      "water jug",
+      "teapot"
     ],
     "topk_probabilities": [
-      1.0, 1.360328932831223e-10, 1.2529834114705096e-10,
-      1.0789696913704461e-10, 1.0744619083347118e-10
-    ]
+      0.9148109555244446, 0.08012044429779053, 0.0036512555088847876,
+      0.0003362523566465825, 0.00022251442715059966
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00024870_n01955084.JPEG",
@@ -1093,19 +1142,20 @@
     "true_label_idx": 116,
     "original_top1_index": 116,
     "original_true_class_probability": 0.8195002675056458,
-    "true_class_probability": 3.412583054053813e-20,
-    "topk_indices": [840, 462, 545, 463, 897],
+    "true_class_probability": 8.362885495216688e-8,
+    "topk_indices": [840, 699, 448, 854, 811],
     "topk_labels": [
       "swab, swob, mop",
-      "broom",
-      "electric fan, blower",
-      "bucket, pail",
-      "washer, automatic washer, washing machine"
+      "panpipe, pandean pipe, syrinx",
+      "birdhouse",
+      "theater curtain, theatre curtain",
+      "space heater"
     ],
     "topk_probabilities": [
-      0.9999825954437256, 1.7387832485837862e-5, 2.6219796112059157e-8,
-      3.873525056263816e-9, 3.0816889040607975e-9
-    ]
+      0.8338657021522522, 0.06748650968074799, 0.008010955527424812,
+      0.007926582358777523, 0.006849984638392925
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00039545_n02481823.JPEG",
@@ -1113,19 +1163,20 @@
     "true_label_idx": 367,
     "original_top1_index": 367,
     "original_true_class_probability": 0.9230130314826965,
-    "true_class_probability": 3.097531953155652e-11,
-    "topk_indices": [371, 372, 380, 373, 911],
+    "true_class_probability": 2.4254120933875356e-9,
+    "topk_indices": [452, 911, 221, 206, 434],
     "topk_labels": [
-      "patas, hussar monkey, Erythrocebus patas",
-      "baboon",
-      "titi, titi monkey",
-      "macaque",
-      "wool, woolen, woollen"
+      "bonnet, poke bonnet",
+      "wool, woolen, woollen",
+      "Irish water spaniel",
+      "curly-coated retriever",
+      "bath towel"
     ],
     "topk_probabilities": [
-      0.999526858329773, 0.0002924868604168296, 7.202300912467763e-5,
-      1.8542959878686816e-5, 1.1148181329190265e-5
-    ]
+      0.31422755122184753, 0.30037567019462585, 0.0647459328174591,
+      0.04132905974984169, 0.022912684828042984
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00020461_n03017168.JPEG",
@@ -1133,19 +1184,20 @@
     "true_label_idx": 494,
     "original_top1_index": 494,
     "original_true_class_probability": 0.8423603177070618,
-    "true_class_probability": 1.877470236794361e-29,
-    "topk_indices": [778, 704, 467, 957, 870],
+    "true_class_probability": 3.3409624608212185e-20,
+    "topk_indices": [987, 998, 428, 665, 870],
     "topk_labels": [
-      "scale, weighing machine",
-      "parking meter",
-      "butcher shop, meat market",
-      "pomegranate",
+      "corn",
+      "ear, spike, capitulum",
+      "barrow, garden cart, lawn cart, wheelbarrow",
+      "moped",
       "tricycle, trike, velocipede"
     ],
     "topk_probabilities": [
-      1.0, 2.4433910501982757e-15, 4.715941695924227e-16,
-      4.7862589301339304e-17, 4.425012943892017e-17
-    ]
+      0.9996194839477539, 0.0003804397420026362, 7.157954939884803e-8,
+      1.3787787800367823e-8, 2.0456811800073638e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036358_n04131690.JPEG",
@@ -1153,19 +1205,20 @@
     "true_label_idx": 773,
     "original_top1_index": 773,
     "original_true_class_probability": 0.9898374676704407,
-    "true_class_probability": 1.9775128971619415e-17,
-    "topk_indices": [434, 794, 934, 673, 103],
+    "true_class_probability": 5.228741328799913e-10,
+    "topk_indices": [434, 591, 669, 794, 793],
     "topk_labels": [
       "bath towel",
+      "handkerchief, hankie, hanky, hankey",
+      "mosquito net",
       "shower curtain",
-      "hotdog, hot dog, red hot",
-      "mouse, computer mouse",
-      "platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus"
+      "shower cap"
     ],
     "topk_probabilities": [
-      0.9999904632568359, 2.742233391472837e-6, 1.1885488220286788e-6,
-      1.021283082991431e-6, 8.408781013713451e-7
-    ]
+      0.9871052503585815, 0.009706947021186352, 0.0009583838982507586,
+      0.0004906043759547174, 0.00022679343237541616
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043612_n04613696.JPEG",
@@ -1173,19 +1226,20 @@
     "true_label_idx": 915,
     "original_top1_index": 915,
     "original_true_class_probability": 0.9161205291748047,
-    "true_class_probability": 6.789592776890174e-10,
-    "topk_indices": [409, 635, 826, 769, 892],
+    "true_class_probability": 0.0004864232032559812,
+    "topk_indices": [442, 449, 664, 749, 668],
     "topk_labels": [
-      "analog clock",
-      "magnetic compass",
-      "stopwatch, stop watch",
-      "rule, ruler",
-      "wall clock"
+      "bell cote, bell cot",
+      "boathouse",
+      "monitor",
+      "quill, quill pen",
+      "mosque"
     ],
     "topk_probabilities": [
-      0.9843127131462097, 0.01167627889662981, 0.0014608681667596102,
-      0.0007546493434347212, 0.0005987941985949874
-    ]
+      0.36142614483833313, 0.07731717824935913, 0.058418095111846924,
+      0.05331908166408539, 0.03850872069597244
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00040930_n01698640.JPEG",
@@ -1193,19 +1247,20 @@
     "true_label_idx": 50,
     "original_top1_index": 50,
     "original_true_class_probability": 0.9623203277587891,
-    "true_class_probability": 1.108989570118845e-18,
-    "topk_indices": [676, 796, 340, 649, 825],
+    "true_class_probability": 2.844478938415079e-14,
+    "topk_indices": [835, 562, 594, 807, 755],
     "topk_labels": [
-      "muzzle",
-      "ski mask",
-      "zebra",
-      "megalith, megalithic structure",
-      "stone wall"
+      "sundial",
+      "fountain",
+      "harp",
+      "solar dish, solar collector, solar furnace",
+      "radio telescope, radio reflector"
     ],
     "topk_probabilities": [
-      1.0, 1.0955211848795443e-8, 8.547775820488823e-9, 4.012180365720042e-9,
-      3.760678879416446e-9
-    ]
+      0.9999921321868896, 1.7688360003376147e-6, 1.5682468301747576e-6,
+      8.833006290842604e-7, 8.502172477165004e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00040860_n03692522.JPEG",
@@ -1213,19 +1268,20 @@
     "true_label_idx": 633,
     "original_top1_index": 633,
     "original_true_class_probability": 0.6779124736785889,
-    "true_class_probability": 6.226292364571576e-17,
-    "topk_indices": [823, 636, 841, 411, 692],
+    "true_class_probability": 1.7589664059601724e-14,
+    "topk_indices": [823, 589, 600, 620, 902],
     "topk_labels": [
       "stethoscope",
-      "mailbag, postbag",
-      "sweatshirt",
-      "apron",
-      "packet"
+      "hand blower, blow dryer, blow drier, hair dryer, hair drier",
+      "hook, claw",
+      "laptop, laptop computer",
+      "whistle"
     ],
     "topk_probabilities": [
-      0.9896559715270996, 0.0032109497115015984, 0.0027083605527877808,
-      0.001859500422142446, 0.000815497653093189
-    ]
+      0.9999998807907104, 3.426751860047261e-8, 3.3543376076750064e-8,
+      7.016605074738891e-9, 5.532116542639187e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00032155_n03180011.JPEG",
@@ -1233,19 +1289,20 @@
     "true_label_idx": 527,
     "original_top1_index": 527,
     "original_true_class_probability": 0.6725512146949768,
-    "true_class_probability": 7.573604808042437e-16,
-    "topk_indices": [662, 592, 606, 419, 620],
+    "true_class_probability": 1.695303025832735e-17,
+    "topk_indices": [662, 811, 606, 753, 754],
     "topk_labels": [
       "modem",
-      "hard disc, hard disk, fixed disk",
+      "space heater",
       "iron, smoothing iron",
-      "Band Aid",
-      "laptop, laptop computer"
+      "radiator",
+      "radio, wireless"
     ],
     "topk_probabilities": [
-      1.0, 1.3494867445729142e-8, 4.8605293123671345e-9, 3.6518084112202587e-9,
-      2.279679556238534e-9
-    ]
+      1.0, 1.886617112534239e-10, 1.2022435824654565e-10, 1.941168580044117e-11,
+      6.757440093596578e-12
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00010333_n04357314.JPEG",
@@ -1253,19 +1310,20 @@
     "true_label_idx": 838,
     "original_top1_index": 838,
     "original_true_class_probability": 0.8303864002227783,
-    "true_class_probability": 9.572166101712373e-19,
-    "topk_indices": [643, 619, 126, 611, 861],
+    "true_class_probability": 3.269186658003424e-16,
+    "topk_indices": [904, 556, 341, 778, 828],
     "topk_labels": [
-      "mask",
-      "lampshade, lamp shade",
-      "isopod",
-      "jigsaw puzzle",
-      "toilet seat"
+      "window screen",
+      "fire screen, fireguard",
+      "hog, pig, grunter, squealer, Sus scrofa",
+      "scale, weighing machine",
+      "strainer"
     ],
     "topk_probabilities": [
-      0.9999847412109375, 1.6782963712103083e-6, 1.6546752021895372e-6,
-      1.635045236980659e-6, 1.545432041893946e-6
-    ]
+      0.999784529209137, 8.931796037359163e-5, 2.931060953414999e-5,
+      1.2237675036885776e-5, 1.166282527265139e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00011035_n01914609.JPEG",
@@ -1273,19 +1331,20 @@
     "true_label_idx": 108,
     "original_top1_index": 108,
     "original_true_class_probability": 0.9260811805725098,
-    "true_class_probability": 2.803046262243131e-18,
-    "topk_indices": [584, 749, 451, 844, 613],
+    "true_class_probability": 3.5744210685958197e-16,
+    "topk_indices": [584, 600, 767, 643, 451],
     "topk_labels": [
       "hair slide",
-      "quill, quill pen",
-      "bolo tie, bolo, bola tie, bola",
-      "switch, electric switch, electrical switch",
-      "joystick"
+      "hook, claw",
+      "rubber eraser, rubber, pencil eraser",
+      "mask",
+      "bolo tie, bolo, bola tie, bola"
     ],
     "topk_probabilities": [
-      1.0, 9.320364924292335e-9, 1.4291035022040433e-9, 1.1865051163795215e-9,
-      1.111578162849014e-9
-    ]
+      1.0, 2.020697609239619e-9, 7.516811062480144e-10, 7.112892497218581e-10,
+      2.204059712518358e-10
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00045027_n07579787.JPEG",
@@ -1293,19 +1352,20 @@
     "true_label_idx": 923,
     "original_top1_index": 923,
     "original_true_class_probability": 0.6390142440795898,
-    "true_class_probability": 2.522474948340273e-28,
-    "topk_indices": [363, 51, 373, 344, 39],
+    "true_class_probability": 8.7159923206528e-16,
+    "topk_indices": [616, 327, 998, 987, 850],
     "topk_labels": [
-      "armadillo",
-      "triceratops",
-      "macaque",
-      "hippopotamus, hippo, river horse, Hippopotamus amphibius",
-      "common iguana, iguana, Iguana iguana"
+      "knot",
+      "starfish, sea star",
+      "ear, spike, capitulum",
+      "corn",
+      "teddy, teddy bear"
     ],
     "topk_probabilities": [
-      1.0, 5.5301697249321435e-11, 8.442986435854005e-13, 4.488845818488574e-13,
-      3.187004696605933e-13
-    ]
+      0.9585286974906921, 0.02950361557304859, 0.00728341331705451,
+      0.002835370134562254, 0.0009539829916320741
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036688_n02509815.JPEG",
@@ -1313,19 +1373,20 @@
     "true_label_idx": 387,
     "original_top1_index": 387,
     "original_true_class_probability": 0.871034562587738,
-    "true_class_probability": 1.89949555441695e-26,
-    "topk_indices": [585, 631, 898, 838, 737],
+    "true_class_probability": 7.900231424492628e-20,
+    "topk_indices": [816, 910, 494, 911, 558],
     "topk_labels": [
-      "hair spray",
-      "lotion",
-      "water bottle",
-      "sunscreen, sunblock, sun blocker",
-      "pop bottle, soda bottle"
+      "spindle",
+      "wooden spoon",
+      "chime, bell, gong",
+      "wool, woolen, woollen",
+      "flute, transverse flute"
     ],
     "topk_probabilities": [
-      1.0, 1.1748731154614944e-10, 4.103900552721029e-11,
-      1.7809077780192584e-12, 2.915320437314739e-13
-    ]
+      1.0, 5.798158064784786e-10, 4.4236359020288774e-10,
+      2.6882396308991474e-10, 9.108375165212124e-11
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00041032_n06874185.JPEG",
@@ -1333,19 +1394,20 @@
     "true_label_idx": 920,
     "original_top1_index": 920,
     "original_true_class_probability": 0.9803792238235474,
-    "true_class_probability": 1.0513677227463522e-20,
-    "topk_indices": [774, 837, 790, 502, 608],
+    "true_class_probability": 9.198536377041933e-11,
+    "topk_indices": [239, 238, 240, 241, 439],
     "topk_labels": [
-      "sandal",
-      "sunglasses, dark glasses, shades",
-      "shopping basket",
-      "clog, geta, patten, sabot",
-      "jean, blue jean, denim"
+      "Bernese mountain dog",
+      "Greater Swiss Mountain dog",
+      "Appenzeller",
+      "EntleBucher",
+      "bearskin, busby, shako"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 9.364524800048457e-8, 2.7644230016221627e-8,
-      2.4531075837330718e-8, 3.3945231070475756e-9
-    ]
+      0.9518767595291138, 0.03885790705680847, 0.0018666626419872046,
+      0.0012205546954646707, 0.0008620328735560179
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00008390_n03832673.JPEG",
@@ -1353,19 +1415,20 @@
     "true_label_idx": 681,
     "original_top1_index": 681,
     "original_true_class_probability": 0.6051949858665466,
-    "true_class_probability": 1.3609908974045229e-21,
-    "topk_indices": [868, 804, 923, 896, 611],
+    "true_class_probability": 4.19609449454645e-14,
+    "topk_indices": [737, 440, 898, 455, 899],
     "topk_labels": [
-      "tray",
-      "soap dispenser",
-      "plate",
-      "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
-      "jigsaw puzzle"
+      "pop bottle, soda bottle",
+      "beer bottle",
+      "water bottle",
+      "bottlecap",
+      "water jug"
     ],
     "topk_probabilities": [
-      1.0, 4.038476096503846e-13, 2.379369758945954e-13, 1.7635663708461674e-13,
-      8.753362482549418e-14
-    ]
+      0.9995530247688293, 0.00031039168243296444, 0.00013178806693758816,
+      1.7068928173102904e-6, 1.3195507335694856e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00031113_n03902125.JPEG",
@@ -1373,19 +1436,20 @@
     "true_label_idx": 707,
     "original_top1_index": 707,
     "original_true_class_probability": 0.9511303305625916,
-    "true_class_probability": 9.791276844357067e-27,
-    "topk_indices": [571, 882, 473, 758, 686],
+    "true_class_probability": 3.749373970228297e-18,
+    "topk_indices": [571, 686, 512, 691, 758],
     "topk_labels": [
       "gas pump, gasoline pump, petrol pump, island dispenser",
-      "vacuum, vacuum cleaner",
-      "can opener, tin opener",
-      "reel",
-      "oil filter"
+      "oil filter",
+      "corkscrew, bottle screw",
+      "oxygen mask",
+      "reel"
     ],
     "topk_probabilities": [
-      1.0, 6.0989377610731754e-12, 4.3631517534148054e-14,
-      2.874668209094759e-14, 2.4245347415396794e-14
-    ]
+      1.0, 3.014066862760956e-8, 2.95593727273058e-9, 2.0479631324121783e-9,
+      1.605589328157464e-9
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00022877_n03840681.JPEG",
@@ -1393,19 +1457,20 @@
     "true_label_idx": 684,
     "original_top1_index": 684,
     "original_true_class_probability": 0.9121201038360596,
-    "true_class_probability": 5.447865281014056e-19,
-    "topk_indices": [572, 512, 966, 562, 441],
+    "true_class_probability": 1.3004500227327062e-14,
+    "topk_indices": [828, 556, 855, 545, 618],
     "topk_labels": [
-      "goblet",
-      "corkscrew, bottle screw",
-      "red wine",
-      "fountain",
-      "beer glass"
+      "strainer",
+      "fire screen, fireguard",
+      "thimble",
+      "electric fan, blower",
+      "ladle"
     ],
     "topk_probabilities": [
-      0.9999514818191528, 1.6595198758295737e-5, 1.2495440387283452e-5,
-      5.903959845454665e-6, 5.753800905949902e-6
-    ]
+      0.9999878406524658, 4.5989822865522e-6, 1.2532050277513918e-6,
+      1.1885400681421743e-6, 9.081473422156705e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00005198_n02113023.JPEG",
@@ -1413,19 +1478,20 @@
     "true_label_idx": 263,
     "original_top1_index": 263,
     "original_true_class_probability": 0.9501564502716064,
-    "true_class_probability": 7.452318160325094e-16,
-    "topk_indices": [212, 763, 597, 740, 447],
+    "true_class_probability": 4.617664909977283e-15,
+    "topk_indices": [212, 447, 764, 763, 626],
     "topk_labels": [
       "English setter",
+      "binoculars, field glasses, opera glasses",
+      "rifle",
       "revolver, six-gun, six-shooter",
-      "holster",
-      "power drill",
-      "binoculars, field glasses, opera glasses"
+      "lighter, light, igniter, ignitor"
     ],
     "topk_probabilities": [
-      0.9966028928756714, 0.0033116182312369347, 2.7376927391742356e-5,
-      2.177739042963367e-5, 2.0013425455545075e-5
-    ]
+      0.9998102784156799, 0.000122760800877586, 4.097905912203714e-5,
+      2.141391632903833e-5, 8.138062526086287e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00027842_n02119789.JPEG",
@@ -1433,19 +1499,20 @@
     "true_label_idx": 278,
     "original_top1_index": 278,
     "original_true_class_probability": 0.8861690163612366,
-    "true_class_probability": 1.0247352483503935e-17,
-    "topk_indices": [263, 264, 162, 253, 156],
+    "true_class_probability": 1.81362307035424e-14,
+    "topk_indices": [263, 264, 253, 240, 241],
     "topk_labels": [
       "Pembroke, Pembroke Welsh corgi",
       "Cardigan, Cardigan Welsh corgi",
-      "beagle",
       "basenji",
-      "Blenheim spaniel"
+      "Appenzeller",
+      "EntleBucher"
     ],
     "topk_probabilities": [
-      0.9999868869781494, 1.2826418242184445e-5, 9.30209722582731e-8,
-      8.323265632270704e-8, 2.8361082371475277e-8
-    ]
+      0.9998364448547363, 0.00015388689644169062, 6.394251613528468e-6,
+      2.1646487766702194e-6, 3.3131851751022623e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00032833_n04273569.JPEG",
@@ -1453,19 +1520,20 @@
     "true_label_idx": 814,
     "original_top1_index": 814,
     "original_true_class_probability": 0.6940622329711914,
-    "true_class_probability": 1.0844204623517737e-25,
-    "topk_indices": [33, 34, 150, 36, 5],
+    "true_class_probability": 2.2894396869464524e-18,
+    "topk_indices": [246, 172, 150, 243, 942],
     "topk_labels": [
-      "loggerhead, loggerhead turtle, Caretta caretta",
-      "leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea",
+      "Great Dane",
+      "whippet",
       "sea lion",
-      "terrapin",
-      "electric ray, crampfish, numbfish, torpedo"
+      "bull mastiff",
+      "butternut squash"
     ],
     "topk_probabilities": [
-      1.0, 6.7308101314722535e-9, 4.00341435349838e-12, 1.993677792300197e-12,
-      1.808287243901252e-12
-    ]
+      0.9990586638450623, 0.0008997488184832036, 3.7124678783584386e-5,
+      9.420095921086613e-7, 8.778928872743563e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00021822_n03255030.JPEG",
@@ -1473,19 +1541,20 @@
     "true_label_idx": 543,
     "original_top1_index": 543,
     "original_true_class_probability": 0.72796231508255,
-    "true_class_probability": 1.934085395106968e-21,
-    "topk_indices": [542, 541, 577, 822, 432],
+    "true_class_probability": 3.5345923882758404e-18,
+    "topk_indices": [542, 541, 644, 626, 902],
     "topk_labels": [
       "drumstick",
       "drum, membranophone, tympan",
-      "gong, tam-tam",
-      "steel drum",
-      "bassoon"
+      "matchstick",
+      "lighter, light, igniter, ignitor",
+      "whistle"
     ],
     "topk_probabilities": [
-      0.9997712969779968, 0.0002287512761540711, 4.089051763855878e-9,
-      3.6212484122444266e-9, 1.87165460907579e-9
-    ]
+      0.9999767541885376, 1.1615844414336607e-5, 6.365425633703126e-6,
+      2.4197579477913678e-6, 3.8554188108719245e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00022956_n01748264.JPEG",
@@ -1493,19 +1562,20 @@
     "true_label_idx": 63,
     "original_top1_index": 63,
     "original_true_class_probability": 0.8934444189071655,
-    "true_class_probability": 9.316512923887464e-23,
-    "topk_indices": [496, 356, 806, 361, 658],
+    "true_class_probability": 2.2409161250800183e-14,
+    "topk_indices": [909, 428, 567, 544, 778],
     "topk_labels": [
-      "Christmas stocking",
-      "weasel",
-      "sock",
-      "skunk, polecat, wood pussy",
-      "mitten"
+      "wok",
+      "barrow, garden cart, lawn cart, wheelbarrow",
+      "frying pan, frypan, skillet",
+      "Dutch oven",
+      "scale, weighing machine"
     ],
     "topk_probabilities": [
-      1.0, 1.7693541076724273e-10, 7.163646065233564e-11, 2.750250895078299e-11,
-      1.0205249839634334e-11
-    ]
+      0.9997649788856506, 0.00014423864195123315, 8.253509440692142e-5,
+      5.182635050005047e-6, 1.1958054528804496e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00024611_n07583066.JPEG",
@@ -1513,19 +1583,20 @@
     "true_label_idx": 924,
     "original_top1_index": 924,
     "original_true_class_probability": 0.6875353455543518,
-    "true_class_probability": 3.282862534332437e-14,
-    "topk_indices": [126, 749, 568, 76, 452],
+    "true_class_probability": 3.0614105348331284e-16,
+    "topk_indices": [926, 469, 909, 521, 925],
     "topk_labels": [
-      "isopod",
-      "quill, quill pen",
-      "fur coat",
-      "tarantula",
-      "bonnet, poke bonnet"
+      "hot pot, hotpot",
+      "caldron, cauldron",
+      "wok",
+      "Crock Pot",
+      "consomme"
     ],
     "topk_probabilities": [
-      0.31152528524398804, 0.171477273106575, 0.1338156759738922,
-      0.1114313155412674, 0.0946965143084526
-    ]
+      0.9997852444648743, 0.00018153076234739274, 2.8820100851589814e-5,
+      2.7600422072282527e-6, 5.846546287102683e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00022893_n02115913.JPEG",
@@ -1533,19 +1604,20 @@
     "true_label_idx": 274,
     "original_top1_index": 274,
     "original_true_class_probability": 0.916851818561554,
-    "true_class_probability": 3.2134978705800066e-11,
-    "topk_indices": [735, 452, 474, 63, 796],
+    "true_class_probability": 1.6714936726391905e-11,
+    "topk_indices": [239, 234, 191, 214, 256],
     "topk_labels": [
-      "poncho",
-      "bonnet, poke bonnet",
-      "cardigan",
-      "Indian cobra, Naja naja",
-      "ski mask"
+      "Bernese mountain dog",
+      "Rottweiler",
+      "Airedale, Airedale terrier",
+      "Gordon setter",
+      "Newfoundland, Newfoundland dog"
     ],
     "topk_probabilities": [
-      0.9725661873817444, 0.022989172488451004, 0.0017114445799961686,
-      0.00030050682835280895, 0.00023128915927372873
-    ]
+      0.7300195097923279, 0.1743239164352417, 0.06927675008773804,
+      0.02230587601661682, 0.000862221815623343
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00020310_n04418357.JPEG",
@@ -1553,19 +1625,20 @@
     "true_label_idx": 854,
     "original_top1_index": 854,
     "original_true_class_probability": 0.8454596400260925,
-    "true_class_probability": 2.3274975002873788e-10,
-    "topk_indices": [619, 572, 818, 846, 562],
+    "true_class_probability": 9.468571759985167e-12,
+    "topk_indices": [619, 846, 818, 905, 701],
     "topk_labels": [
       "lampshade, lamp shade",
-      "goblet",
-      "spotlight, spot",
       "table lamp",
-      "fountain"
+      "spotlight, spot",
+      "window shade",
+      "parachute, chute"
     ],
     "topk_probabilities": [
-      0.9981246590614319, 0.0011559934355318546, 0.0004491194267757237,
-      0.00014995044330134988, 9.27333258005092e-6
-    ]
+      0.9999754428863525, 2.359810059715528e-5, 5.594729941549303e-7,
+      6.460467716351559e-8, 5.7392899321939694e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00015374_n01751748.JPEG",
@@ -1573,19 +1646,20 @@
     "true_label_idx": 65,
     "original_top1_index": 65,
     "original_true_class_probability": 0.8882360458374023,
-    "true_class_probability": 9.503053725878896e-13,
-    "topk_indices": [124, 696, 84, 122, 90],
+    "true_class_probability": 2.9658358369274854e-16,
+    "topk_indices": [58, 696, 54, 53, 124],
     "topk_labels": [
-      "crayfish, crawfish, crawdad, crawdaddy",
+      "water snake",
       "paintbrush",
-      "peacock",
-      "American lobster, Northern lobster, Maine lobster, Homarus americanus",
-      "lorikeet"
+      "hognose snake, puff adder, sand viper",
+      "ringneck snake, ring-necked snake, ring snake",
+      "crayfish, crawfish, crawdad, crawdaddy"
     ],
     "topk_probabilities": [
-      0.9999184608459473, 2.6993096980731934e-5, 9.397946087119635e-6,
-      5.025568498240318e-6, 2.15744148590602e-6
-    ]
+      0.9999935626983643, 2.7107021196570713e-6, 1.5045819736769772e-6,
+      9.38456821586442e-7, 6.321239993667405e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00004605_n02096294.JPEG",
@@ -1593,19 +1667,20 @@
     "true_label_idx": 193,
     "original_top1_index": 193,
     "original_true_class_probability": 0.49424394965171814,
-    "true_class_probability": 3.7163722425973013e-20,
-    "topk_indices": [186, 185, 502, 192, 626],
+    "true_class_probability": 8.426081000774031e-16,
+    "topk_indices": [186, 185, 541, 184, 502],
     "topk_labels": [
       "Norwich terrier",
       "Norfolk terrier",
-      "clog, geta, patten, sabot",
-      "cairn, cairn terrier",
-      "lighter, light, igniter, ignitor"
+      "drum, membranophone, tympan",
+      "Irish terrier",
+      "clog, geta, patten, sabot"
     ],
     "topk_probabilities": [
-      0.9999988079071045, 1.2189688050057157e-6, 6.286587361792328e-10,
-      3.5603975323539316e-10, 2.2827735535191351e-10
-    ]
+      0.999984622001648, 1.5290426745195873e-5, 4.6614530901933904e-8,
+      1.4411808635372836e-8, 1.3105593943407712e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00007508_n04040759.JPEG",
@@ -1613,19 +1688,20 @@
     "true_label_idx": 753,
     "original_top1_index": 753,
     "original_true_class_probability": 0.8688042163848877,
-    "true_class_probability": 1.0113210688885303e-22,
-    "topk_indices": [600, 517, 494, 772, 536],
+    "true_class_probability": 4.170438661132794e-21,
+    "topk_indices": [600, 695, 772, 536, 517],
     "topk_labels": [
       "hook, claw",
-      "crane",
-      "chime, bell, gong",
+      "padlock",
       "safety pin",
-      "dock, dockage, docking facility"
+      "dock, dockage, docking facility",
+      "crane"
     ],
     "topk_probabilities": [
-      1.0, 3.082297611589624e-11, 2.2285213605033327e-11,
-      4.7108718835564556e-12, 3.1445341122648962e-12
-    ]
+      1.0, 1.3773127083283043e-9, 1.2419202333191492e-9, 2.582593305877623e-10,
+      1.0418134410716817e-10
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00029524_n02236044.JPEG",
@@ -1633,19 +1709,20 @@
     "true_label_idx": 315,
     "original_top1_index": 315,
     "original_true_class_probability": 0.9351138472557068,
-    "true_class_probability": 1.6768460328242612e-22,
-    "topk_indices": [868, 611, 556, 921, 620],
+    "true_class_probability": 1.8749909739892617e-17,
+    "topk_indices": [778, 909, 896, 438, 485],
     "topk_labels": [
-      "tray",
-      "jigsaw puzzle",
-      "fire screen, fireguard",
-      "book jacket, dust cover, dust jacket, dust wrapper",
-      "laptop, laptop computer"
+      "scale, weighing machine",
+      "wok",
+      "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
+      "beaker",
+      "CD player"
     ],
     "topk_probabilities": [
-      1.0, 3.3884672845374553e-10, 4.706967454692901e-11, 3.449284954881726e-11,
-      1.0788574894560199e-12
-    ]
+      1.0, 1.8359284925661967e-10, 2.705077828402125e-11,
+      1.4029396568082664e-11, 9.03230181620307e-12
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043334_n02090622.JPEG",
@@ -1653,19 +1730,20 @@
     "true_label_idx": 169,
     "original_top1_index": 169,
     "original_true_class_probability": 0.9226787686347961,
-    "true_class_probability": 4.669039827273531e-17,
-    "topk_indices": [176, 851, 212, 731, 160],
+    "true_class_probability": 2.910098273467554e-10,
+    "topk_indices": [176, 212, 851, 178, 131],
     "topk_labels": [
       "Saluki, gazelle hound",
-      "television, television system",
       "English setter",
-      "plunger, plumber's helper",
-      "Afghan hound, Afghan"
+      "television, television system",
+      "Weimaraner",
+      "little blue heron, Egretta caerulea"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 1.1806998401198143e-7, 1.9782346427632547e-8,
-      3.6046536866507495e-9, 1.4541383652755258e-9
-    ]
+      0.9999755620956421, 7.249049303936772e-6, 4.044948127557291e-6,
+      2.4375754037464503e-6, 1.2763281347361044e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00043232_n02108089.JPEG",
@@ -1673,19 +1751,20 @@
     "true_label_idx": 242,
     "original_top1_index": 242,
     "original_true_class_probability": 0.840494692325592,
-    "true_class_probability": 2.5283424888711116e-20,
-    "topk_indices": [227, 151, 208, 180, 852],
+    "true_class_probability": 9.061359247577311e-14,
+    "topk_indices": [227, 345, 342, 346, 341],
     "topk_labels": [
       "kelpie",
-      "Chihuahua",
-      "Labrador retriever",
-      "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
-      "tennis ball"
+      "ox",
+      "wild boar, boar, Sus scrofa",
+      "water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",
+      "hog, pig, grunter, squealer, Sus scrofa"
     ],
     "topk_probabilities": [
-      1.0, 8.539920770544995e-9, 6.227841020667313e-10, 1.4255609193103425e-10,
-      6.035962007988616e-11
-    ]
+      0.9999666213989258, 1.092660750146024e-5, 6.2010599322093185e-6,
+      4.377051936899079e-6, 3.330161689518718e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00035915_n04311174.JPEG",
@@ -1693,19 +1772,20 @@
     "true_label_idx": 822,
     "original_top1_index": 822,
     "original_true_class_probability": 0.9176121950149536,
-    "true_class_probability": 1.5038367822065128e-27,
-    "topk_indices": [725, 899, 883, 849, 846],
+    "true_class_probability": 8.09070031701194e-15,
+    "topk_indices": [899, 94, 572, 680, 725],
     "topk_labels": [
-      "pitcher, ewer",
       "water jug",
-      "vase",
-      "teapot",
-      "table lamp"
+      "hummingbird",
+      "goblet",
+      "nipple",
+      "pitcher, ewer"
     ],
     "topk_probabilities": [
-      0.9992545247077942, 0.0007451196433976293, 3.417632115088054e-7,
-      1.2703608165409719e-9, 1.1143123090917584e-9
-    ]
+      0.9994526505470276, 0.0002683186321519315, 5.777622573077679e-5,
+      5.059060640633106e-5, 2.4854458388290368e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00021909_n03337140.JPEG",
@@ -1713,19 +1793,20 @@
     "true_label_idx": 553,
     "original_top1_index": 553,
     "original_true_class_probability": 0.7766726016998291,
-    "true_class_probability": 5.466541647006182e-23,
-    "topk_indices": [971, 703, 879, 562, 716],
+    "true_class_probability": 3.829800365728886e-10,
+    "topk_indices": [413, 971, 745, 898, 757],
     "topk_labels": [
+      "assault rifle, assault gun",
       "bubble",
-      "park bench",
-      "umbrella",
-      "fountain",
-      "picket fence, paling"
+      "projector",
+      "water bottle",
+      "recreational vehicle, RV, R.V."
     ],
     "topk_probabilities": [
-      0.9998472929000854, 0.0001508790155639872, 1.7359344610667904e-6,
-      4.829914956872017e-8, 1.461479826048162e-8
-    ]
+      0.4536394774913788, 0.13328145444393158, 0.06739573180675507,
+      0.026248354464769363, 0.0247807614505291
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036581_n01984695.JPEG",
@@ -1733,19 +1814,20 @@
     "true_label_idx": 123,
     "original_top1_index": 123,
     "original_true_class_probability": 0.9312448501586914,
-    "true_class_probability": 8.87540541374285e-24,
-    "topk_indices": [341, 342, 880, 467, 830],
+    "true_class_probability": 2.4270548678456683e-13,
+    "topk_indices": [766, 341, 467, 997, 344],
     "topk_labels": [
+      "rotisserie",
       "hog, pig, grunter, squealer, Sus scrofa",
-      "wild boar, boar, Sus scrofa",
-      "unicycle, monocycle",
       "butcher shop, meat market",
-      "stretcher"
+      "bolete",
+      "hippopotamus, hippo, river horse, Hippopotamus amphibius"
     ],
     "topk_probabilities": [
-      1.0, 2.6689543908275937e-9, 3.9393911310109386e-13,
-      1.7632501903876163e-13, 1.0971033651864526e-13
-    ]
+      0.9999188184738159, 8.031860488699749e-5, 2.7038294092562865e-7,
+      1.3057481851319608e-7, 6.542113339946809e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00026634_n01664065.JPEG",
@@ -1753,19 +1835,20 @@
     "true_label_idx": 33,
     "original_top1_index": 33,
     "original_true_class_probability": 0.8296384811401367,
-    "true_class_probability": 4.48098428547654e-15,
-    "topk_indices": [84, 82, 7, 85, 749],
+    "true_class_probability": 8.86277856659845e-11,
+    "topk_indices": [360, 356, 357, 150, 358],
     "topk_labels": [
-      "peacock",
-      "ruffed grouse, partridge, Bonasa umbellus",
-      "cock",
-      "quail",
-      "quill, quill pen"
+      "otter",
+      "weasel",
+      "mink",
+      "sea lion",
+      "polecat, fitch, foulmart, foumart, Mustela putorius"
     ],
     "topk_probabilities": [
-      0.9999991655349731, 3.3997304171862197e-7, 1.0923117343963895e-7,
-      8.548393282126199e-8, 7.835862447791442e-8
-    ]
+      0.9998915195465088, 2.9387027097982354e-5, 2.6531755793257616e-5,
+      1.9536404579412192e-5, 1.1313167306070682e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00022728_n03929660.JPEG",
@@ -1773,19 +1856,20 @@
     "true_label_idx": 714,
     "original_top1_index": 714,
     "original_true_class_probability": 0.7448052167892456,
-    "true_class_probability": 6.072772316452195e-20,
-    "topk_indices": [546, 402, 420, 426, 684],
+    "true_class_probability": 6.931862202297356e-12,
+    "topk_indices": [546, 402, 420, 812, 889],
     "topk_labels": [
       "electric guitar",
       "acoustic guitar",
       "banjo",
-      "barometer",
-      "ocarina, sweet potato"
+      "space shuttle",
+      "violin, fiddle"
     ],
     "topk_probabilities": [
-      1.0, 4.51747395047164e-9, 3.2835131835717846e-10, 9.330227562776017e-11,
-      7.929266965245318e-11
-    ]
+      0.9999964237213135, 6.307835178631649e-7, 5.396457822826051e-7,
+      3.3611900107644033e-7, 2.605147813028452e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00036867_n02769748.JPEG",
@@ -1793,19 +1877,20 @@
     "true_label_idx": 414,
     "original_top1_index": 414,
     "original_true_class_probability": 0.8955960869789124,
-    "true_class_probability": 1.1181855954825385e-19,
-    "topk_indices": [835, 51, 562, 643, 635],
+    "true_class_probability": 5.843356397708388e-13,
+    "topk_indices": [835, 51, 562, 738, 666],
     "topk_labels": [
       "sundial",
       "triceratops",
       "fountain",
-      "mask",
-      "magnetic compass"
+      "pot, flowerpot",
+      "mortar"
     ],
     "topk_probabilities": [
-      0.9999997615814209, 1.252256254247186e-7, 6.400866681133266e-8,
-      2.205213611716772e-8, 1.855857156840557e-8
-    ]
+      0.9995021820068359, 0.0001404226932208985, 7.634036592207849e-5,
+      5.223336847848259e-5, 5.1235692808404565e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00017113_n02088632.JPEG",
@@ -1813,19 +1898,20 @@
     "true_label_idx": 164,
     "original_top1_index": 164,
     "original_true_class_probability": 0.8073662519454956,
-    "true_class_probability": 1.524117811949248e-18,
-    "topk_indices": [562, 594, 360, 618, 708],
+    "true_class_probability": 2.8690977392687887e-15,
+    "topk_indices": [562, 971, 857, 741, 668],
     "topk_labels": [
       "fountain",
-      "harp",
-      "otter",
-      "ladle",
-      "pedestal, plinth, footstall"
+      "bubble",
+      "throne",
+      "prayer rug, prayer mat",
+      "mosque"
     ],
     "topk_probabilities": [
-      1.0, 3.883626220613223e-8, 2.827983358599795e-8, 1.2437509688822956e-8,
-      5.965488103498728e-9
-    ]
+      0.9948829412460327, 0.005012109875679016, 2.5216377252945676e-5,
+      6.886493338242872e-6, 5.5850537137303036e-6
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00035391_n02107683.JPEG",
@@ -1833,19 +1919,20 @@
     "true_label_idx": 239,
     "original_top1_index": 239,
     "original_true_class_probability": 0.669139564037323,
-    "true_class_probability": 2.7608061711720113e-21,
-    "topk_indices": [241, 162, 240, 701, 797],
+    "true_class_probability": 5.74625245593186e-15,
+    "topk_indices": [241, 240, 701, 172, 797],
     "topk_labels": [
       "EntleBucher",
-      "beagle",
       "Appenzeller",
       "parachute, chute",
+      "whippet",
       "sleeping bag"
     ],
     "topk_probabilities": [
-      1.0, 7.563987658443239e-9, 2.115472685915165e-9, 4.988562340990654e-10,
-      2.6318280887949186e-10
-    ]
+      0.9999784231185913, 1.2229757885506842e-5, 8.267022167274263e-6,
+      8.711781447345857e-7, 4.567917599729299e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00040709_n03825788.JPEG",
@@ -1853,19 +1940,20 @@
     "true_label_idx": 680,
     "original_top1_index": 680,
     "original_true_class_probability": 0.34953466057777405,
-    "true_class_probability": 3.817222505261937e-23,
-    "topk_indices": [861, 868, 787, 896, 891],
+    "true_class_probability": 7.701854695243477e-18,
+    "topk_indices": [796, 643, 518, 837, 556],
     "topk_labels": [
-      "toilet seat",
-      "tray",
-      "shield, buckler",
-      "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
-      "waffle iron"
+      "ski mask",
+      "mask",
+      "crash helmet",
+      "sunglasses, dark glasses, shades",
+      "fire screen, fireguard"
     ],
     "topk_probabilities": [
-      1.0, 1.1185349313436177e-9, 1.5336040770641546e-10, 4.752497007043388e-11,
-      2.5483932672432097e-11
-    ]
+      0.9997947812080383, 0.00018637411994859576, 1.2545298886834644e-5,
+      9.52524317199277e-7, 9.321990432908933e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00024431_n02096177.JPEG",
@@ -1873,19 +1961,20 @@
     "true_label_idx": 192,
     "original_top1_index": 192,
     "original_true_class_probability": 0.3255405128002167,
-    "true_class_probability": 1.0528502901904583e-17,
-    "topk_indices": [397, 392, 395, 390, 983],
+    "true_class_probability": 2.7283071801775804e-8,
+    "topk_indices": [585, 605, 720, 673, 487],
     "topk_labels": [
-      "puffer, pufferfish, blowfish, globefish",
-      "rock beauty, Holocanthus tricolor",
-      "gar, garfish, garpike, billfish, Lepisosteus osseus",
-      "eel",
-      "scuba diver"
+      "hair spray",
+      "iPod",
+      "pill bottle",
+      "mouse, computer mouse",
+      "cellular telephone, cellular phone, cellphone, cell, mobile phone"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 4.478867055013325e-8, 1.613917000042875e-8,
-      1.3861868985998171e-8, 1.3551042954418335e-8
-    ]
+      0.9687032699584961, 0.006194118410348892, 0.0047609019093215466,
+      0.004174228757619858, 0.0018097016727551818
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00017178_n02018795.JPEG",
@@ -1893,19 +1982,20 @@
     "true_label_idx": 138,
     "original_top1_index": 138,
     "original_true_class_probability": 0.9511740803718567,
-    "true_class_probability": 1.3273596030164412e-15,
-    "topk_indices": [855, 883, 725, 773, 968],
+    "true_class_probability": 3.640972072449511e-13,
+    "topk_indices": [262, 758, 254, 154, 521],
     "topk_labels": [
-      "thimble",
-      "vase",
-      "pitcher, ewer",
-      "saltshaker, salt shaker",
-      "cup"
+      "Brabancon griffon",
+      "reel",
+      "pug, pug-dog",
+      "Pekinese, Pekingese, Peke",
+      "Crock Pot"
     ],
     "topk_probabilities": [
-      1.0, 1.8146966596077618e-8, 1.2270307436779149e-8, 9.655519050966177e-9,
-      7.659078704591593e-9
-    ]
+      0.9996204376220703, 0.00033666976378299296, 3.348401151015423e-5,
+      4.876034381595673e-6, 6.288295821832435e-7
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00019599_n02951585.JPEG",
@@ -1913,19 +2003,20 @@
     "true_label_idx": 473,
     "original_top1_index": 473,
     "original_true_class_probability": 0.19582267105579376,
-    "true_class_probability": 1.6637123822765452e-24,
-    "topk_indices": [999, 700, 794, 716, 912],
+    "true_class_probability": 5.459635564822318e-13,
+    "topk_indices": [999, 878, 699, 687, 398],
     "topk_labels": [
       "toilet tissue, toilet paper, bathroom tissue",
-      "paper towel",
-      "shower curtain",
-      "picket fence, paling",
-      "worm fence, snake fence, snake-rail fence, Virginia fence"
+      "typewriter keyboard",
+      "panpipe, pandean pipe, syrinx",
+      "organ, pipe organ",
+      "abacus"
     ],
     "topk_probabilities": [
-      1.0, 4.673222520068521e-8, 2.2328325299802998e-10, 1.4786326330007427e-10,
-      1.1665619858991505e-10
-    ]
+      0.9972086548805237, 0.0021853079088032246, 0.0001617388625163585,
+      5.181008600629866e-5, 2.9087948860251345e-5
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00019445_n04118538.JPEG",
@@ -1933,13 +2024,20 @@
     "true_label_idx": 768,
     "original_top1_index": 768,
     "original_true_class_probability": 0.8974027633666992,
-    "true_class_probability": 2.410500972614628e-15,
-    "topk_indices": [691, 151, 162, 172, 253],
-    "topk_labels": ["oxygen mask", "Chihuahua", "beagle", "whippet", "basenji"],
+    "true_class_probability": 7.570898075126564e-11,
+    "topk_indices": [816, 476, 514, 849, 51],
+    "topk_labels": [
+      "spindle",
+      "carousel, carrousel, merry-go-round, roundabout, whirligig",
+      "cowboy boot",
+      "teapot",
+      "triceratops"
+    ],
     "topk_probabilities": [
-      0.9821458458900452, 0.012758919969201088, 0.0013024457730352879,
-      0.0007524733664467931, 0.0005951969651505351
-    ]
+      0.9298868775367737, 0.050508204847574234, 0.005505882669240236,
+      0.0037411432713270187, 0.0036843593697994947
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00025674_n03796401.JPEG",
@@ -1947,19 +2045,20 @@
     "true_label_idx": 675,
     "original_top1_index": 675,
     "original_true_class_probability": 0.9541853666305542,
-    "true_class_probability": 3.988589599602356e-23,
-    "topk_indices": [817, 751, 511, 573, 670],
+    "true_class_probability": 2.011284530902889e-17,
+    "topk_indices": [817, 751, 511, 479, 581],
     "topk_labels": [
       "sports car, sport car",
       "racer, race car, racing car",
       "convertible",
-      "go-kart",
-      "motor scooter, scooter"
+      "car wheel",
+      "grille, radiator grille"
     ],
     "topk_probabilities": [
-      0.9999998807907104, 6.38634318761433e-8, 7.84908305018206e-10,
-      4.1005765449853016e-10, 8.823660552215173e-11
-    ]
+      0.9999945163726807, 4.490815172175644e-6, 5.265450226943358e-7,
+      2.4602181269983703e-7, 9.018102531399563e-8
+    ],
+    "epsilon": [8.0, 255.0]
   },
   {
     "input_name": "ILSVRC2012_val_00009112_n02342885.JPEG",
@@ -1967,18 +2066,19 @@
     "true_label_idx": 333,
     "original_top1_index": 333,
     "original_true_class_probability": 0.922264575958252,
-    "true_class_probability": 7.104129784440971e-11,
-    "topk_indices": [84, 86, 611, 47, 82],
+    "true_class_probability": 4.328933045361083e-11,
+    "topk_indices": [280, 88, 86, 21, 80],
     "topk_labels": [
-      "peacock",
+      "grey fox, gray fox, Urocyon cinereoargenteus",
+      "macaw",
       "partridge",
-      "jigsaw puzzle",
-      "African chameleon, Chamaeleo chamaeleon",
-      "ruffed grouse, partridge, Bonasa umbellus"
+      "kite",
+      "black grouse"
     ],
     "topk_probabilities": [
-      0.986727774143219, 0.008792968466877937, 0.0018002064898610115,
-      0.001029465813189745, 0.0004436264280229807
-    ]
+      0.4457876980304718, 0.24121204018592834, 0.09524884074926376,
+      0.06830662488937378, 0.04082443565130234
+    ],
+    "epsilon": [8.0, 255.0]
   }
 ]

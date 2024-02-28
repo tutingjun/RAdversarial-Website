@@ -14,6 +14,8 @@ export type SearchItem = {
   topk_indices: number[];
   topk_labels: string[];
   topk_probabilities: number[];
+  iteration?: number;
+  epsilon?: number[];
 };
 
 function generateRandom(max: number, exclude: number): number {

@@ -22,8 +22,11 @@ interface ImageProps {
 const ImageCard: React.FC<ImageProps> = ({ path, prediction, method_name }) => {
   return prediction ? (
     <Card className="card-border-color m-auto w-80 px-2 py-4 sm:m-0">
-      <CardHeader className="flex-col items-start px-4 pb-2 pt-2">
+      <CardHeader className="flex-row items-start justify-between px-4 pb-2 pt-2">
         <h4 className="text-xl font-bold">{method_name}</h4>
+        {prediction.epsilon ? (
+          <p className="text-base">&epsilon;:{prediction.epsilon}</p>
+        ) : null}
       </CardHeader>
       <CardBody className="overflow-visible py-2">
         <Image

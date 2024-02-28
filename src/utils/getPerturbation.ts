@@ -1,3 +1,4 @@
+import type { SearchItem } from "@components/Search";
 import {
   Original,
   PGD,
@@ -6,6 +7,7 @@ import {
   FGSM_Surrogate,
   PGD_Surrogate,
 } from "@content/perturbed_result";
+import fractionUnicode from "fraction-unicode";
 
 const getJson = (method: string) => {
   switch (method) {
@@ -34,19 +36,15 @@ type ModelResult = {
 export type PerturbationResult = {
   model_result: ModelResult[];
   isSuccessful: boolean;
+  epsilon: string;
 };
 
 export const getImagePath = (imageName: string, method: string) => {
   return `../perturbed_images/${method}/perturbed_${imageName}.png`;
 };
 
-export const isPerturbationSuccess = (imageName: string, method: string) => {
-  const curMethod = getJson(method);
-  const image_result = curMethod.find(ele => ele.input_name == imageName);
-};
-
 export const getPerturbationResult = (imageName: string, method: string) => {
-  const curMethod = getJson(method);
+  const curMethod = getJson(method) as SearchItem[];
 
   const image_result = curMethod.find(ele => ele.input_name == imageName);
   if (image_result) {
@@ -62,6 +60,9 @@ export const getPerturbationResult = (imageName: string, method: string) => {
         .slice(0, 3),
       isSuccessful:
         image_result.true_label_idx !== image_result.topk_indices[0],
+      epsilon: image_result.epsilon
+        ? image_result.epsilon[0] + "/" + image_result.epsilon[1]
+        : "",
     } as PerturbationResult;
   }
 };
