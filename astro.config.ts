@@ -42,8 +42,10 @@ export default defineConfig({
   scopedStyleStrategy: "where",
   outDir: "./dist/adversarial",
   build: {
+    redirects: false,
     // Example: Generate `page.html` instead of `page/index.html` during build.
     inlineStylesheets: `always`,
+    format: "file",
     // assetsPrefix: "..",
   },
   trailingSlash: "always",

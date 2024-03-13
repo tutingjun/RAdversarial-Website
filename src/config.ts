@@ -2,7 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website:
-    "https://cs.carleton.edu/cs_comps/2324/adversarial/final-results/index.html",
+    "https://cs.carleton.edu/cs_comps/2324/adversarial/final-results/adversarial/",
   author:
     "Sky Lu, Yuxin Lin, Jonas Bartels, Tingjun Tu, Alice Cutter, Sriya Konda",
   desc: "Website for Carleton College WI24 CS adversarial attacks comps.",
