@@ -24,19 +24,21 @@ const { Content } = await paper[0].render();
       </div>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        Deep neural network-based image classifiers significantly impact various
+        sectors of society, with applications such as automatic driving and
+        tumor detection. However, researchers have found that these models are
+        vulnerable to carefully selected perturbations that can cause
+        misclassification. These adversarial examples allow attackers to
+        infiltrate real-world neural network image classifiers and pose a
+        security risk. This paper examines four adversarial attacks (Fast
+        Gradient Sign Method, Projected Gradient Descent, LocSearchAdv, and
+        Surrogate Attack) based on the attacker’s knowledge level of the target
+        model and compares their effectiveness on the same testing dataset by
+        running experiments on ImageNet data using MobileViT as the target
+        model. No attack was found to outperform the others in all respects;
+        however, certain algorithms perform better depending on the situation.
+        The paper also discusses possible defense strategies and ethical
+        concerns related to adversarial attacks.
       </p>
       {
         // only display if at least one social link is enabled
@@ -50,30 +52,11 @@ const { Content } = await paper[0].render();
     </section>
 
     <Hr />
-
-    <article
-      id="article"
-      role="article"
-      class="prose mx-auto mt-8 max-w-3xl px-5"
-    >
-      <Content />
-
-      <div
-        class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
-      >
-        <button
-          id="back-to-top"
-          class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
-            <path
-              d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-            ></path>
-          </svg>
-          <span>Back to Top</span>
-        </button>
-      </div>
-    </article>
+    <iframe
+      src="/Adversarial Paper.pdf"
+      width="100%"
+      height="700px"
+      class="prose mx-auto mt-8 max-w-3xl px-5"></iframe>
   </main>
 
   <Footer />

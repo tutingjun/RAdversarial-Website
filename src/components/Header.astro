@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import socialIcons from "@assets/socialIcons";
 
 export interface Props {
-  activeNav?: "demonstrate" | "about" | "github" | "paper";
+  activeNav?: "demonstrate" | "about" | "github";
 }
 
 const { activeNav } = Astro.props;
@@ -66,16 +66,6 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
               About
-            </a>
-          </li>
-          <li>
-            <!-- TODO Chaneg href -->
-            <a
-              href="/paper/"
-              class={activeNav === "paper" ? "active" : ""}
-              target="_blank"
-            >
-              Paper
             </a>
           </li>
           <li>

@@ -1,7 +1,8 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "http://192.168.1.117:8080/adversarial/", // TODO: replace this with your deployed domain
+  website:
+    "https://cs.carleton.edu/cs_comps/2324/adversarial/final-results/index.html",
   author:
     "Sky Lu, Yuxin Lin, Jonas Bartels, Tingjun Tu, Alice Cutter, Sriya Konda",
   desc: "Website for Carleton College WI24 CS adversarial attacks comps.",
